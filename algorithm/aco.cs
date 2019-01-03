@@ -22,7 +22,8 @@ namespace algorithm
         }
         private List<List<int>> antsRoutes;
         private LowerTriangularMatrix pheromoneMatrix;
-        private int currIter, numOfIters;
+        private int numOfIters;
+        public int currIter{get;private set;}
     }
     class LowerTriangularMatrix
     {
@@ -247,7 +248,7 @@ namespace algorithm
             int currIter = 0;
 
             while(currIter < this.numOfIters){
-                Console.WriteLine($"iter: {currIter}");
+                //Console.WriteLine($"iter: {currIter}");
                 //let them loose
                 foreach(Ant a in ants){
                     a.start();
@@ -280,7 +281,7 @@ namespace algorithm
                 this.resultQueue.Enqueue(new IterationContext(antsRoutes,pheromoneMatrix,currIter,
                                                             numOfIters));
                 ++currIter;
-                System.Threading.Thread.Sleep(100);
+                System.Threading.Thread.Sleep(100);//for testing purposes TODO: remove
                 
             }
         }
@@ -290,35 +291,51 @@ namespace algorithm
     {
         static void Main(string[] args)
         {
+            //testing matrix
             double[,] matrix = new double[6,6]{ {-1,7,20,7,6,8},
                                                 {7,-1,11,8,13,11},
                                                 {20,11,-1,18,19,7},
                                                 {7,8,18,-1,3,2},
                                                 {6,13,19,3,-1,5},
                                                 {8,11,7,2,5,-1}};
-            ConcurrentQueue<double> cq = new ConcurrentQueue<double>();
+            ConcurrentQueue<IterationContext> cq = new ConcurrentQueue<IterationContext>();
 
-            AntColony ac = new AntColony(matrix,0,50,.5,1.2,.40,1000,80, cq);
+            int start = 0;
+            int antCount = 50;
+            double alpha = .5;
+            double beta  = 1.2;
+            double pheromoneEvaporationCoef = .40;
+            double pheromoneConstant = 1000;
+            int maxIters = 80;
+
+        
+            AntColony ac = new AntColony(matrix,start,antCount,alpha,beta,pheromoneEvaporationCoef,
+                                        pheromoneConstant ,maxIters, cq);
 
             Thread t = new Thread(new ThreadStart(ac.mainLoop));
             t.Start();
-            double res = 1;
-            while(res != -1){
-                while(cq.TryDequeue(out res) == false){
-                    Console.WriteLine("Cekam");
+            IterationContext currIterContext;
+            int currIter = 0;
+            while(currIter < maxIters - 1){
+                while(cq.TryDequeue(out currIterContext) == false){
+                    //Console.WriteLine("Waiting");
                 }
-                Console.WriteLine($"Docekao {res}");
+                Console.WriteLine($"New iter: {currIterContext.currIter}");
+                currIter = currIterContext.currIter;
             }
             t.Join();
 
-            var path = ac.shortestPath;
+            var path = string.Join("=>",ac.shortestPath);
             var dist = ac.shrotestDistance;
         
 
-            Console.WriteLine($"Najkraci put ima {dist} i on je: ");
-            foreach(int node in path){
-                Console.Write($"{node + 1}=>");
-            }
+            Console.WriteLine($"Shortest path has length of {dist} and it is: {path}");
+            
+
+            
+            // foreach(int node in path){
+            //     Console.Write($"{node + 1}=>");
+            // }
             // LowerTriangularMatrix ltm = new LowerTriangularMatrix(matrix);
             // Console.WriteLine(ltm[0,0]);
             // Console.WriteLine(ltm[1,0]);
