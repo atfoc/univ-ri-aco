@@ -1,4 +1,3 @@
-*.csproj
 *.txt
 bin/
 obj/
