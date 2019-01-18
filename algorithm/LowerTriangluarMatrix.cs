@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace LowerTriangularMatrixNamespace{
 	class LowerTriangularMatrix<T>
@@ -30,7 +31,6 @@ namespace LowerTriangularMatrixNamespace{
             data.CopyTo(this.data, 0);
         } 
 		
-
 		public bool writeToFile(String path){
 			bool ret = true;
 			string[] lines = new string[this.size + 1];
@@ -45,9 +45,30 @@ namespace LowerTriangularMatrixNamespace{
 				}
 			}
 			System.IO.File.WriteAllLines(path, lines);
-			
 
 			return ret;
+		}
+
+		public void readFromFile(String path){
+			string[] lines = System.IO.File.ReadAllLines(path, Encoding.ASCII);
+			string[] lines_minus_one = new string[lines.Length-1];
+			int num_of_nodes = Int32.Parse(lines[0]);
+			this.size = num_of_nodes;
+			Console.WriteLine(num_of_nodes);
+			Array.Copy(lines, 1, lines_minus_one, 0, lines.Length-1);//remove first element
+			
+			this.data = new T[num_of_nodes * (num_of_nodes+1)/2];
+			int index = 0;//index at which we are currently enetring new value
+			foreach(string line in lines_minus_one){
+				string[] vals = line.Split(" ");
+				foreach(string val in vals){
+					if(val.Trim() == "")
+						continue;
+					data[index] = (T)Convert.ChangeType(val, typeof(T));
+					++index;
+				}
+			}
+
 		}
 
 		T[] data;
