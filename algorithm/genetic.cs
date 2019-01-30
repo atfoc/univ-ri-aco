@@ -182,7 +182,7 @@ namespace GeneticNamespace {
         private void threadRun(ConcurrentQueue<int> unservisedColonies, LowerTriangularMatrix<double> lt){
             while(!unservisedColonies.IsEmpty){
                 int index;
-                ConcurrentQueue<IterationContext> cq = new ConcurrentQueue<IterationContext>();//unused here
+                Queue<IterationContext> cq = new Queue<IterationContext>();//unused here
                 unservisedColonies.TryDequeue(out index);
 
                 Colony tmp = currentGeneration[index];
@@ -202,9 +202,7 @@ namespace GeneticNamespace {
         }
 
         private void calculateFitness(LowerTriangularMatrix<double> lt){
-            
-            ConcurrentQueue<IterationContext> cq = new ConcurrentQueue<IterationContext>();
-
+        
             int threadNum = Environment.ProcessorCount * 2;
             ConcurrentQueue<int> unservisedColonies =
                             new ConcurrentQueue<int>(Enumerable.Range(0,currentGeneration.Count));

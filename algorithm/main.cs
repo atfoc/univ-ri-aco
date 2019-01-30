@@ -13,42 +13,33 @@ namespace main{
 	class Program{
 	    static void begin(LowerTriangularMatrix<double> lt, int start, int antCount, double alpha, double beta,
             double pheromoneEvaporationCoef, double pheromoneConstant, int maxIters,
-            ConcurrentQueue<IterationContext> cq)
+            Queue<IterationContext> cq)
         {
+            AntColony ac = new AntColony(lt,start,antCount,alpha,beta,pheromoneEvaporationCoef,
+                                        pheromoneConstant ,maxIters, cq);
 
-                    Stopwatch sw = new Stopwatch();
-                    sw.Start();
-                    AntColony ac = new AntColony(lt,start,antCount,alpha,beta,pheromoneEvaporationCoef,
-                                                pheromoneConstant ,maxIters, cq);
-
-                    Thread t = new Thread(new ThreadStart(ac.mainLoop));
-                    t.Start();
-                    t.Join();
-                    sw.Stop();
-
-                    var path = string.Join("=>",ac.shortestPath);
-                    var dist = ac.shrotestDistance;
-
-                    Console.WriteLine($"Elapsed time: {sw.Elapsed}");
-                    Console.WriteLine($"Shortest path has length of {dist} and it is: {path}");
+            ac.begin();
+            int currIter = 0;
+            while(currIter != maxIters-1){
+                IterationContext it;
+                while(cq.TryDequeue(out it) == false);
+                currIter = it.currIter;
+                Console.WriteLine(""+it.currIter);
+            }
+            var path = string.Join("=>",ac.shortestPath);
+            var dist = ac.shrotestDistance;
+            Console.WriteLine($"Shortest path has length of {dist} and it is: {path}");
         }
 		public static void Main(string[] args)
 		{
-            //testing matrix
-            // double[,] matrix = new double[6,6]{ {-1,7,20,7,6,8},
-            //                                     {7,-1,11,8,13,11},
-            //                                     {20,11,-1,18,19,7},
-            //                                     {7,8,18,-1,3,2},
-            //                                     {6,13,19,3,-1,5},
-            //                                     {8,11,7,2,5,-1}};
-            ConcurrentQueue<IterationContext> cq = new ConcurrentQueue<IterationContext>();
+            Queue<IterationContext> cq = new Queue<IterationContext>();
             int start = 0;
-            int antCount = 139;
-            double alpha = 1.67;
-            double beta  = 2.21;
-            double pheromoneEvaporationCoef = 0.92;
-            double pheromoneConstant = 106;
-            int maxIters = 14;
+            int antCount = 53;
+            double alpha = 1.22;
+            double beta  = 4.8;
+            double pheromoneEvaporationCoef = 0.12;
+            double pheromoneConstant = 2170;
+            int maxIters = 11;
 
             
             if(args[0] == "-g"){
