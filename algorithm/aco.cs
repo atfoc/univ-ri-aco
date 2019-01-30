@@ -150,28 +150,28 @@ namespace algorithm
                     }
 
         public AntColony(  LowerTriangularMatrix<double> matrix, int start, int antCount, double alpha, double beta, 
-                    double pheromoneEvaporationCoef, double pheromoneConstant, int numOfIters,
-                    ConcurrentQueue<IterationContext> cq)
-                    {
-                        this.matrix = new LowerTriangularMatrix<double>(matrix);
-                        this.start = start;
-                        this.antCount = antCount;
-                        this.alpha = alpha;
-                        this.beta = beta;
+                        double pheromoneEvaporationCoef, double pheromoneConstant, int numOfIters,
+                        ConcurrentQueue<IterationContext> cq)
+        {
+            this.matrix = new LowerTriangularMatrix<double>(matrix);
+            this.start = start;
+            this.antCount = antCount;
+            this.alpha = alpha;
+            this.beta = beta;
 
-                        this.pheromoneMatrix = new LowerTriangularMatrix<double>(matrix.size);
-                        this.pheromoneMatrixCopy = new LowerTriangularMatrix<double>(matrix.size);
-                        this.pheromoneEvaporationCoef = pheromoneEvaporationCoef;
-                        this.pheromoneConstant = pheromoneConstant;
-                        this.numOfIters = numOfIters;
-                        ants = new Ant[antCount];
-                        this.firstPass = true;
-                        this.shortestPath = null;
-                        this.shrotestDistance = -1;
-                        initAnts();
-                        this.resultQueue = cq;
-                    }
-
+            this.pheromoneMatrix = new LowerTriangularMatrix<double>(matrix.size);
+            this.pheromoneMatrixCopy = new LowerTriangularMatrix<double>(matrix.size);
+            this.pheromoneEvaporationCoef = pheromoneEvaporationCoef;
+            this.pheromoneConstant = pheromoneConstant;
+            this.numOfIters = numOfIters;
+            ants = new Ant[antCount];
+            this.firstPass = true;
+            this.shortestPath = null;
+            this.shrotestDistance = -1;
+            initAnts();
+            this.resultQueue = cq;
+        }
+//TODO: bool for running
         private LowerTriangularMatrix<double> matrix;
         private Ant[] ants;
         LowerTriangularMatrix<double> pheromoneMatrix, pheromoneMatrixCopy;
@@ -212,7 +212,7 @@ namespace algorithm
                 }
             }
         }
-
+//TODO: start and lock
         public void mainLoop(){
             int currIter = 0;
 

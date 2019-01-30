@@ -42,48 +42,50 @@ namespace main{
             //                                     {6,13,19,3,-1,5},
             //                                     {8,11,7,2,5,-1}};
             ConcurrentQueue<IterationContext> cq = new ConcurrentQueue<IterationContext>();
-            // int start = 0;
-            // int antCount = 50;
-            // double alpha = 0.4;
-            // double beta  = 0.87;
-            // double pheromoneEvaporationCoef = .90;
-            // double pheromoneConstant = 10000;
-            // int maxIters = 100;
+            int start = 0;
+            int antCount = 139;
+            double alpha = 1.67;
+            double beta  = 2.21;
+            double pheromoneEvaporationCoef = 0.92;
+            double pheromoneConstant = 106;
+            int maxIters = 14;
 
-            GeneticAlg g = new GeneticAlg(5000);
-            g.start();
-
-            // if(args[0] == "-g"){
-            //     int numOfGraphs = 1;
-            //     int maxNodes = 45;
-            //     int minNodes = 3;
-            //     int maxWeight = 3000;
-            //     int minWeight = 500;
+            
+            if(args[0] == "-g"){
+                int numOfGraphs = 1;
+                int maxNodes = 20;
+                int minNodes = 5;
+                int maxWeight = 3000;
+                int minWeight = 500;
                 
-            //     Generator g = new Generator(numOfGraphs, maxNodes, minNodes, maxWeight, minWeight);
+                Generator g = new Generator(numOfGraphs, maxNodes, minNodes, maxWeight, minWeight);
 
-            //     var graphs = g.generate(); //array of matricies of graphs
+                var graphs = g.generate(); //array of matricies of graphs
 
-            //     Console.WriteLine("Graphs generated");
-            //     foreach(LowerTriangularMatrix<double> lt in graphs)
-            //     {
-            //         lt.writeToFile("test.txt");
-            //         Console.WriteLine(lt.size);
-            //         begin(lt,start, antCount, alpha, beta, pheromoneEvaporationCoef, pheromoneConstant
-            //         ,maxIters, cq);
-            //     }
+                Console.WriteLine("Graphs generated");
+                foreach(LowerTriangularMatrix<double> lt in graphs)
+                {
+                    lt.writeToFile("test.txt");
+                    Console.WriteLine(lt.size);
+                    begin(lt,start, antCount, alpha, beta, pheromoneEvaporationCoef, pheromoneConstant
+                    ,maxIters, cq);
+                }
 
-            // }
-            // else if(args[0] == "-r"){
-            //     LowerTriangularMatrix<double> lt = new LowerTriangularMatrix<double>(0);
-            //     lt.readFromFile(args[1]);
-            //     begin(lt,start, antCount, alpha, beta, pheromoneEvaporationCoef, pheromoneConstant
-            //     ,maxIters, cq);
-            // }
-            // else{
-            //     Console.WriteLine("Need an option besides [-g,-r <path>]? Add it :D");
-            //     return;
-            // }
+            }
+            else if(args[0] == "-r"){
+                LowerTriangularMatrix<double> lt = new LowerTriangularMatrix<double>(0);
+                lt.readFromFile(args[1]);
+                begin(lt,start, antCount, alpha, beta, pheromoneEvaporationCoef, pheromoneConstant
+                ,maxIters, cq);
+            }
+            else if(args[0] == "-gen"){
+                GeneticAlg g = new GeneticAlg(3500);
+                g.start();
+            }
+            else{
+                Console.WriteLine("Need an option besides [-g,-gen,-r <path>]? Add it :D");
+                return;
+            }
             
         }
 	}

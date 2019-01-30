@@ -1,0 +1,354 @@
+{ "array": 
+[
+    {
+        "capitalName": "Tirana",
+        "countryName": "Albania",
+        "y": "41.31666666666667",
+        "x": "19.816667",
+	    "townSize": "small"
+    },
+    {
+        "capitalName": "Andorra la Vella",
+        "countryName": "Andorra",
+        "y": "42.5",
+        "x": "1.516667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Yerevan",
+        "countryName": "Armenia",
+        "y": "40.166666666666664",
+        "x": "44.500000",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Vienna",
+        "countryName": "Austria",
+        "y": "48.2",
+        "x": "16.366667",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Baku",
+        "countryName": "Azerbaijan",
+        "y": "40.38333333333333",
+        "x": "49.866667",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Minsk",
+        "countryName": "Belarus",
+        "y": "53.9",
+        "x": "27.566667",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Brussels",
+        "countryName": "Belgium",
+        "y": "50.833333333333336",
+        "x": "4.333333",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Sarajevo",
+        "countryName": "Bosnia and Herzegovina",
+        "y": "43.86666666666667",
+        "x": "18.416667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Sofia",
+        "countryName": "Bulgaria",
+        "y": "42.68333333333333",
+        "x": "23.316667",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Zagreb",
+        "countryName": "Croatia",
+        "y": "45.8",
+        "x": "16.000000",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Nicosia",
+        "countryName": "Cyprus",
+        "y": "35.166666666666664",
+        "x": "33.366667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Prague",
+        "countryName": "Czech Republic",
+        "y": "50.083333333333336",
+        "x": "14.466667",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Copenhagen",
+        "countryName": "Denmark",
+        "y": "55.666666666666664",
+        "x": "12.583333",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Tallinn",
+        "countryName": "Estonia",
+        "y": "59.43333333333333",
+        "x": "24.716667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Torshavn",
+        "countryName": "Faroe Islands",
+        "y": "62",
+        "x": "-6.766667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Helsinki",
+        "countryName": "Finland",
+        "y": "60.166666666666664",
+        "x": "24.933333",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Paris",
+        "countryName": "France",
+        "y": "48.86666666666667",
+        "x": "2.333333",
+	"townSize": "large"
+    },
+    {
+        "capitalName": "Tbilisi",
+        "countryName": "Georgia",
+        "y": "41.68333333333333",
+        "x": "44.833333",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Berlin",
+        "countryName": "Germany",
+        "y": "52.516666666666666",
+        "x": "13.400000",
+	"townSize": "large"
+    },
+    {
+        "capitalName": "Gibraltar",
+        "countryName": "Gibraltar",
+        "y": "36.13333333333333",
+        "x": "-5.350000",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Athens",
+        "countryName": "Greece",
+        "y": "37.983333333333334",
+        "x": "23.733333",
+	"townSize": "large"
+    },
+    {
+        "capitalName": "Vatican City",
+        "countryName": "Vatican City",
+        "y": "41.9",
+        "x": "12.450000",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Budapest",
+        "countryName": "Hungary",
+        "y": "47.5",
+        "x": "19.083333",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Reykjavik",
+        "countryName": "Iceland",
+        "y": "64.15",
+        "x": "-21.950000",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Dublin",
+        "countryName": "Ireland",
+        "y": "53.31666666666667",
+        "x": "-6.233333",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Rome",
+        "countryName": "Italy",
+        "y": "41.9",
+        "x": "12.483333",
+	"townSize": "large"
+    },
+    {
+        "capitalName": "Riga",
+        "countryName": "Latvia",
+        "y": "56.95",
+        "x": "24.100000",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Vaduz",
+        "countryName": "Liechtenstein",
+        "y": "47.13333333333333",
+        "x": "9.516667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Vilnius",
+        "countryName": "Lithuania",
+        "y": "54.68333333333333",
+        "x": "25.316667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Luxembourg",
+        "countryName": "Luxembourg",
+        "y": "49.6",
+        "x": "6.116667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Skopje",
+        "countryName": "Macedonia",
+        "y": "42",
+        "x": "21.433333",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Valletta",
+        "countryName": "Malta",
+        "y": "35.88333333333333",
+        "x": "14.500000",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Chisinau",
+        "countryName": "Moldova",
+        "y": "47",
+        "x": "28.850000",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Podgorica",
+        "countryName": "Montenegro",
+        "y": "42.43333333333333",
+        "x": "19.266667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Amsterdam",
+        "countryName": "Netherlands",
+        "y": "52.35",
+        "x": "4.916667",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Oslo",
+        "countryName": "Norway",
+        "y": "59.916666666666664",
+        "x": "10.750000",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Warsaw",
+        "countryName": "Poland",
+        "y": "52.25",
+        "x": "21.000000",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Lisbon",
+        "countryName": "Portugal",
+        "y": "38.71666666666667",
+        "x": "-9.133333",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Bucharest",
+        "countryName": "Romania",
+        "y": "44.43333333333333",
+        "x": "26.100000",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Moscow",
+        "countryName": "Russia",
+        "y": "55.75",
+        "x": "37.600000",
+	"townSize": "large"
+    },
+    {
+        "capitalName": "San Marino",
+        "countryName": "San Marino",
+        "y": "43.93333333333333",
+        "x": "12.416667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Belgrade",
+        "countryName": "Serbia",
+        "y": "44.833333333333336",
+        "x": "20.500000",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Bratislava",
+        "countryName": "Slovakia",
+        "y": "48.15",
+        "x": "17.116667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Ljubljana",
+        "countryName": "Slovenia",
+        "y": "46.05",
+        "x": "14.516667",
+	"townSize": "small"
+    },
+    {
+        "capitalName": "Madrid",
+        "countryName": "Spain",
+        "y": "40.4",
+        "x": "-3.683333",
+	"townSize": "large"
+    },
+    {
+        "capitalName": "Stockholm",
+        "countryName": "Sweden",
+        "y": "59.333333333333336",
+        "x": "18.050000",
+	"townSize": "medium"
+    },
+    {
+        "capitalName": "Bern",
+        "countryName": "Switzerland",
+        "y": "46.916666666666664",
+        "x": "7.466667",
+	    "townSize": "medium"
+    },
+    {
+        "capitalName": "Ankara",
+        "countryName": "Turkey",
+        "y": "39.93333333333333",
+        "x": "32.866667",
+	"townSize": "large"
+    },
+    {
+        "capitalName": "Kyiv",
+        "countryName": "Ukraine",
+        "y": "50.43333333333333",
+        "x": "30.516667",
+	"townSize": "large"
+    },
+    {
+        "capitalName": "London",
+        "countryName": "United Kingdom",
+        "y": "51.5",
+        "x": "-0.083333",
+	"townSize": "large"
+    }
+]
+}
