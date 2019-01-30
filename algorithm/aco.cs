@@ -229,6 +229,8 @@ namespace algorithm
                 }
                 List<List<int>> antsRoutes = new List<List<int>>();
                 //they are done
+                double shortestIterDist = -1;//shortest path in this iteration
+                List<int> shortestIterPath = null;
                 foreach(Ant a in ants){
                     updatePheromoneMatrixCopy(a);
 
@@ -246,6 +248,10 @@ namespace algorithm
                         this.shrotestDistance = a.distanceTraveled;
                         this.shortestPath = a.route;
                     }
+                    if(shortestIterDist == -1 || shortestIterDist > a.distanceTraveled){
+                        shortestIterDist = a.distanceTraveled;
+                        shortestIterPath = a.route;
+                    }
                     
                 }
                 updatePheromoneMatrix();
@@ -253,7 +259,7 @@ namespace algorithm
                 initAnts();
                 this.pheromoneMatrixCopy = new LowerTriangularMatrix<double>(matrix.size);
                 lock(this.resultQueue){
-                    this.resultQueue.Enqueue(new IterationContext(antsRoutes,pheromoneMatrix,currIter,
+                    this.resultQueue.Enqueue(new IterationContext(antsRoutes,shortestIterPath,pheromoneMatrix,currIter,
                                                             numOfIters));
                 }
                 ++currIter;
