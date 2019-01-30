@@ -1,8 +1,4 @@
-﻿//TODO:
-//igrati se sa parametrima
-//proveriti updateovanje feromona
-
-using System;
+﻿using System;
 using System.Threading;
 using System.Collections.Generic;
 using System.Collections.Concurrent;
@@ -29,7 +25,6 @@ namespace algorithm
                 this.firstPass = firstPass;
                 this.route = new List<int>();
                 updateRoute(start);
-                this.done = false;
                 this.distanceTraveled = 0;
             }
 
@@ -40,7 +35,7 @@ namespace algorithm
             LowerTriangularMatrix<double> pheromoneMatrix;
             private double alpha, beta;
             public double distanceTraveled{get;private set;}
-            private bool firstPass, done;
+            private bool firstPass;
             private void updateRoute(int newNode) 
             {
                 this.route.Add(newNode);
@@ -128,7 +123,7 @@ namespace algorithm
 /*****************************************ANT COLONY CLASS*****************************************/
         public AntColony(  double[,] matrix, int start, int antCount, double alpha, double beta, 
                     double pheromoneEvaporationCoef, double pheromoneConstant, int numOfIters,
-                    ConcurrentQueue<IterationContext> cq)
+                    Queue<IterationContext> cq)
                     {
                         this.matrix = new LowerTriangularMatrix<double>(matrix);
                         this.start = start;
@@ -151,7 +146,7 @@ namespace algorithm
 
         public AntColony(  LowerTriangularMatrix<double> matrix, int start, int antCount, double alpha, double beta, 
                         double pheromoneEvaporationCoef, double pheromoneConstant, int numOfIters,
-                        ConcurrentQueue<IterationContext> cq)
+                        Queue<IterationContext> cq)
         {
             this.matrix = new LowerTriangularMatrix<double>(matrix);
             this.start = start;
@@ -170,10 +165,12 @@ namespace algorithm
             this.shrotestDistance = -1;
             initAnts();
             this.resultQueue = cq;
+            this.running = true;
         }
-//TODO: bool for running
         private LowerTriangularMatrix<double> matrix;
         private Ant[] ants;
+        private Thread t;
+        private bool running;
         LowerTriangularMatrix<double> pheromoneMatrix, pheromoneMatrixCopy;
         private int start, antCount, numOfIters;
         private double alpha, beta, pheromoneEvaporationCoef, pheromoneConstant;
@@ -181,7 +178,7 @@ namespace algorithm
 
         public double shrotestDistance{get;private set;}
         public List<int> shortestPath{get; private set;}
-        private ConcurrentQueue<IterationContext> resultQueue;
+        private Queue<IterationContext> resultQueue;
 
         private void initAnts(){
             for(int i = 0; i<antCount;++i ){
@@ -201,7 +198,10 @@ namespace algorithm
                 
             }
         }
-        
+        public void stop(){
+            running = false;
+            this.t.Join();//no need to terminate, join will sufice
+        }
         private void updatePheromoneMatrix()
         {
             int n = pheromoneMatrix.size;
@@ -212,11 +212,16 @@ namespace algorithm
                 }
             }
         }
-//TODO: start and lock
+
+        public void begin(){
+            this.t = new Thread(new ThreadStart(this.mainLoop));
+            this.running = true;
+            t.Start();
+        }
         public void mainLoop(){
             int currIter = 0;
 
-            while(currIter < this.numOfIters){
+            while(running && currIter < this.numOfIters){
                 //Console.WriteLine($"iter: {currIter}");
                 //let them loose
                 foreach(Ant a in ants){
@@ -247,8 +252,10 @@ namespace algorithm
                 this.firstPass = false;
                 initAnts();
                 this.pheromoneMatrixCopy = new LowerTriangularMatrix<double>(matrix.size);
-                this.resultQueue.Enqueue(new IterationContext(antsRoutes,pheromoneMatrix,currIter,
+                lock(this.resultQueue){
+                    this.resultQueue.Enqueue(new IterationContext(antsRoutes,pheromoneMatrix,currIter,
                                                             numOfIters));
+                }
                 ++currIter;
                 //System.Threading.Thread.Sleep(100);//for testing purposes TODO: remove
                 
