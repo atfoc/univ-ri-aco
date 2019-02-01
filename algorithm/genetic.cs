@@ -15,18 +15,18 @@ namespace GeneticNamespace {
        
         public GeneticAlg(int limitMs){
             this.valuesRange = new List<Tuple<double, double>>();
-            this.valuesRange.Add(new Tuple<double, double>(25, 200)); //AntCount
-            this.valuesRange.Add(new Tuple<double, double>(0.01, 5)); //Alpha
-            this.valuesRange.Add(new Tuple<double, double>(0.01, 5)); //Beta
+            this.valuesRange.Add(new Tuple<double, double>(25, 80)); //AntCount
+            this.valuesRange.Add(new Tuple<double, double>(0.01, 10)); //Alpha
+            this.valuesRange.Add(new Tuple<double, double>(0.01, 200)); //Beta
             this.valuesRange.Add(new Tuple<double, double>(0, 1));//pheromoneEvaporation 
-            this.valuesRange.Add(new Tuple<double, double>(100, 2500)); //pheromoneConstant
-            this.valuesRange.Add(new Tuple<double, double>(10, 200)); //maxIters
+            this.valuesRange.Add(new Tuple<double, double>(100, 10000)); //pheromoneConstant
+            this.valuesRange.Add(new Tuple<double, double>(10, 50)); //maxIters
             this.limitMs = limitMs;
             this.currentGeneration = new List<Colony>();
             this.newGeneration = new List<Colony>();
-            this.generationSize = 100;//TODO: change
+            this.generationSize = 35;//TODO: change
             this.allTimeBest = new Colony();
-
+            this.numberOfRepetitions = 3;
         }
         int limitMs; 
         List<Tuple<double,double>> valuesRange;
@@ -34,6 +34,7 @@ namespace GeneticNamespace {
         List<Colony> newGeneration;
         Colony allTimeBest;
         int generationSize;
+        int numberOfRepetitions;
         class Colony{
             public double[] parameters{get; set;}
             public double fitness{get; set;}
@@ -64,7 +65,9 @@ namespace GeneticNamespace {
         }
 
         private double fitnessFunction(double pathLength, int timeInMs){
-            return (pathLength) + (timeInMs - limitMs)*0.5;
+            if(timeInMs < limitMs)
+                return pathLength;
+            return (pathLength) + (timeInMs - limitMs);
         }
 
         //Choosing 32 random parents
@@ -72,7 +75,7 @@ namespace GeneticNamespace {
             List<Colony> parents = new List<Colony>();
             Random rnd = new Random();
             var indices = new List<int>(Enumerable.Range(0, this.generationSize));
-            for(int i = 0; i < 31; i++){
+            for(int i = 0; i < 32; i++){
                 int p = rnd.Next(0, indices.Count);
                 parents.Add(this.currentGeneration[indices[p]]);
                 indices.RemoveAt(p);
@@ -153,7 +156,7 @@ namespace GeneticNamespace {
             Random rnd = new Random();
             foreach(Colony child in this.newGeneration){
                 double mutationProb = rnd.NextDouble();
-                if(mutationProb <= 0.01){
+                if(mutationProb < 1){
                     // Mutate
                     Console.WriteLine("Mutation!");
                     int r = rnd.Next(0, 6);
@@ -164,22 +167,23 @@ namespace GeneticNamespace {
         }
 
         private double takeRandomValue(int index){
-                Random rnd = new Random();
-                return rnd.NextDouble() * (valuesRange[index].Item2 - valuesRange[index].Item1) + valuesRange[index].Item1;
-            }
+            Random rnd = new Random();
+            return rnd.NextDouble() * (valuesRange[index].Item2 - valuesRange[index].Item1) + valuesRange[index].Item1;
+        }
 
-            private void init(){
-                for(int i = 0; i < this.generationSize; i++){
-                    double[] parameters = new double[6];
-                    for(int j = 0; j < 6; j++){
-                        parameters[j] = takeRandomValue(j);
-                    }
-                    this.currentGeneration.Add(new Colony(parameters));
+        private void init(){
+            for(int i = 0; i < this.generationSize; i++){
+                double[] parameters = new double[6];
+                for(int j = 0; j < 6; j++){
+                    parameters[j] = takeRandomValue(j);
                 }
+                this.currentGeneration.Add(new Colony(parameters));
             }
+        }
 
 
         private void threadRun(ConcurrentQueue<int> unservisedColonies, LowerTriangularMatrix<double> lt){
+            
             while(!unservisedColonies.IsEmpty){
                 int index;
                 Queue<IterationContext> cq = new Queue<IterationContext>();//unused here
@@ -187,15 +191,28 @@ namespace GeneticNamespace {
 
                 Colony tmp = currentGeneration[index];
                 Stopwatch sw = new Stopwatch();
-                sw.Start();
-                AntColony ac = new AntColony(lt, 0, (int)tmp.parameters[0], tmp.parameters[1], tmp.parameters[2],
-                    tmp.parameters[3], tmp.parameters[4], (int) tmp.parameters[5], cq);
-                ac.mainLoop();
-                sw.Stop();
+
+                //since ACO is nondeterministic, we will repeat algoritam few times and take average
+                double[] dists = new double[this.numberOfRepetitions];
+                int[] times = new int[this.numberOfRepetitions];
+
+                for(int i = 0 ; i < this.numberOfRepetitions; ++i){
+                    sw.Start();
+                    AntColony ac = new AntColony(lt, 0, (int)tmp.parameters[0], tmp.parameters[1], tmp.parameters[2],
+                        tmp.parameters[3], tmp.parameters[4], (int) tmp.parameters[5], cq);
+                    ac.mainLoop();
+                    sw.Stop();
+                    dists[i] = ac.shrotestDistance;
+                    times[i] = (int)sw.ElapsedMilliseconds;
+                }
+                
+                double averageDist = dists.Sum()/dists.Length;
+                int averageTime = times.Sum()/times.Length;
+                
                 int time = (int)sw.ElapsedMilliseconds;
-                currentGeneration[index].fitness = fitnessFunction(ac.shrotestDistance, time);
-                currentGeneration[index].shorestDistance = ac.shrotestDistance;
-                currentGeneration[index].time = time;
+                currentGeneration[index].fitness = fitnessFunction(averageDist, averageTime);
+                currentGeneration[index].shorestDistance = averageDist;
+                currentGeneration[index].time = averageTime;
                 // Console.WriteLine("index: " + index + " fitness: " + currentGeneration[index].fitness
                 //                 +" for " + time + "ms");
             }
@@ -215,7 +232,7 @@ namespace GeneticNamespace {
         }
 
         public void start(){
-            int iterCount = 100;
+            int iterCount = 200;
             int iter = 0;
             
             init();
@@ -235,6 +252,7 @@ namespace GeneticNamespace {
                 Console.WriteLine("fitness: " + this.currentGeneration[this.currentGeneration.Count -1].fitness);
                 Console.WriteLine("length: " + this.currentGeneration[this.currentGeneration.Count -1].shorestDistance);
                 Console.WriteLine("time: " + this.currentGeneration[this.currentGeneration.Count -1].time);
+                Console.WriteLine(string.Join(" ",allTimeBest.parameters));
                 // if(iter % 10 == 0){
                 //     Console.WriteLine("fitness: " + this.currentGeneration[this.currentGeneration.Count -1].fitness);
                 // }

@@ -5,8 +5,10 @@ namespace IterContext{
 
     class IterationContext
     {
-        public IterationContext(List<List<int>> antsRoutes, List<int> iterShortestPath, LowerTriangularMatrix<double> pheromoneMatrix
-                        ,int currIter, int numOfIters){
+        public IterationContext(List<List<int>> antsRoutes, List<int> iterShortestPath,
+                            LowerTriangularMatrix<double> pheromoneMatrix ,int currIter,
+                            int numOfIters)
+        {
             this.antsRoutes = antsRoutes;
             this.iterShortestPath = iterShortestPath;
             this.pheromoneMatrix = new LowerTriangularMatrix<double>(pheromoneMatrix);

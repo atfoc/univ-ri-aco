@@ -40,7 +40,7 @@ namespace algorithm
             {
                 this.route.Add(newNode);
                 this.notVisited.Remove(newNode);
-                
+
             }
             public void start()
             {
@@ -57,47 +57,42 @@ namespace algorithm
 
             private int pickPath()
             {
-                Random r = new Random();
-                if(this.firstPass){  
-                    int index = r.Next(notVisited.Count);
-                    return notVisited[index];
-                }
-                
                 double pheromoneAmount;
                 double distance;
 
                 Dictionary<int, double> attractivness = new Dictionary<int, double>();
                 double sum = 0;
                 int tmpCnt = 0;
-                foreach(int nextPossible in this.notVisited)
-                {
-                    distance = distanceMatrix[currPosition, nextPossible];
-                    pheromoneAmount = pheromoneMatrix[currPosition, nextPossible];
-                    double pheromonePart = (double)Math.Pow(pheromoneAmount, alpha);
-                    //Console.WriteLine("1/" + distance + ":" + Math.Pow(1/distance, beta));
-                    double distancePart = (double)Math.Pow(1/distance, beta);
-                    attractivness[nextPossible] =  pheromonePart*distancePart;
-
-                    sum += attractivness[nextPossible];
-                    tmpCnt++;
-                }
-                // foreach(var v in attractivness){
-                //     Console.WriteLine(v.Key + "=>" + v.Value);
-                // }
-                
-                
-                if(sum.Equals(0)){
-                    //Console.WriteLine("uvecavam");
-
-                    //since we are changing dict, we need to create a copy of keys
-                    List<int> keys = new List<int>(attractivness.Keys);
-                    foreach(var key in keys){
-                        attractivness[key] = attractivness[key] + Double.Epsilon;
+                Random r = new Random();
+                if(this.firstPass){  
+                    foreach(int nextPossible in this.notVisited)
+                    {
+                        sum += 1/distanceMatrix[currPosition, nextPossible];
+                        attractivness[nextPossible] = 1/distanceMatrix[currPosition, nextPossible];
                     }
-                    sum += keys.Count * Double.Epsilon;
-                    //Console.WriteLine($"incemented sum: {sum}");
                 }
+                else{
+                    foreach(int nextPossible in this.notVisited)
+                    {
+                        distance = distanceMatrix[currPosition, nextPossible];
+                        pheromoneAmount = pheromoneMatrix[currPosition, nextPossible];
+                        double pheromonePart = (double)Math.Pow(pheromoneAmount, alpha);
+                        //Console.WriteLine("1/" + distance + ":" + Math.Pow(1/distance, beta));
+                        double distancePart = (double)Math.Pow(1/distance, beta);
+                        attractivness[nextPossible] = pheromonePart*distancePart;
 
+                        sum += attractivness[nextPossible];
+                        tmpCnt++;
+                    }
+                    if(sum.Equals(0)){
+                        //since we are changing dict, we need to create a copy of keys
+                        List<int> keys = new List<int>(attractivness.Keys);
+                        foreach(var key in keys){
+                            attractivness[key] = attractivness[key] + Double.Epsilon;
+                        }
+                        sum += keys.Count * Double.Epsilon;
+                    }
+                }
                 //ROULETE SELECTION
                 double rand = (double)r.NextDouble();
                 double tmpSum = 0;
@@ -109,7 +104,6 @@ namespace algorithm
                     }
                     tmpSum += weight;
                 }
-
                 return -1;//some error, should not happen
             }
             private void traverse(int curr, int next)

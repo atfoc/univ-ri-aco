@@ -34,13 +34,21 @@ namespace main{
 		{
             Queue<IterationContext> cq = new Queue<IterationContext>();
             int start = 0;
-            int antCount = 53;
-            double alpha = 1.22;
-            double beta  = 4.8;
-            double pheromoneEvaporationCoef = 0.12;
-            double pheromoneConstant = 2170;
-            int maxIters = 11;
+            int antCount = 100;
+            double alpha = .27;
+            double beta  = 8.8;
+            double pheromoneEvaporationCoef = 0.7;
+            double pheromoneConstant = 250;
+            int maxIters = 400;
+/*
+fitness: 33693.1366666667
+path: 33693.1366666667
+time: 10950
+78.9603615943158 0.267751112751547 8.7529256165926 0.777418508090739 249.945633648869 20.7502607119969
 
+31.1382287606309 0.819227674300423 3.17048806131374 0.186540887312284 6784.77668207361 29.9790193233541
+
+ */
             
             if(args[0] == "-g"){
                 int numOfGraphs = 1;
@@ -70,7 +78,7 @@ namespace main{
                 ,maxIters, cq);
             }
             else if(args[0] == "-gen"){
-                GeneticAlg g = new GeneticAlg(3500);
+                GeneticAlg g = new GeneticAlg(5000);
                 g.start();
             }
             else{

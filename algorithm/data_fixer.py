@@ -28,13 +28,6 @@ def main():
 				result_file.write(f"{distances[i][j]} ")
 			result_file.write("\n")
 
-
-		
-
-
-
-
-
 if __name__ == "__main__":
 	main()
 
