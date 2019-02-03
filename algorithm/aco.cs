@@ -118,25 +118,25 @@ namespace algorithm
         public AntColony(  double[,] matrix, int start, int antCount, double alpha, double beta, 
                     double pheromoneEvaporationCoef, double pheromoneConstant, int numOfIters,
                     Queue<IterationContext> cq)
-                    {
-                        this.matrix = new LowerTriangularMatrix<double>(matrix);
-                        this.start = start;
-                        this.antCount = antCount;
-                        this.alpha = alpha;
-                        this.beta = beta;
+        {
+            this.matrix = new LowerTriangularMatrix<double>(matrix);
+            this.start = start;
+            this.antCount = antCount;
+            this.alpha = alpha;
+            this.beta = beta;
 
-                        this.pheromoneMatrix = new LowerTriangularMatrix<double>(matrix.GetLength(0));
-                        this.pheromoneMatrixCopy = new LowerTriangularMatrix<double>(matrix.GetLength(0));
-                        this.pheromoneEvaporationCoef = pheromoneEvaporationCoef;
-                        this.pheromoneConstant = pheromoneConstant;
-                        this.numOfIters = numOfIters;
-                        ants = new Ant[antCount];
-                        this.firstPass = true;
-                        this.shortestPath = null;
-                        this.shrotestDistance = -1;
-                        initAnts();
-                        this.resultQueue = cq;
-                    }
+            this.pheromoneMatrix = new LowerTriangularMatrix<double>(matrix.GetLength(0));
+            this.pheromoneMatrixCopy = new LowerTriangularMatrix<double>(matrix.GetLength(0));
+            this.pheromoneEvaporationCoef = pheromoneEvaporationCoef;
+            this.pheromoneConstant = pheromoneConstant;
+            this.numOfIters = numOfIters;
+            ants = new Ant[antCount];
+            this.firstPass = true;
+            this.shortestPath = null;
+            this.shrotestDistance = -1;
+            initAnts();
+            this.resultQueue = cq;
+        }
 
         public AntColony(  LowerTriangularMatrix<double> matrix, int start, int antCount, double alpha, double beta, 
                         double pheromoneEvaporationCoef, double pheromoneConstant, int numOfIters,
@@ -160,6 +160,7 @@ namespace algorithm
             initAnts();
             this.resultQueue = cq;
             this.running = true;
+            this.sendingStep = 5;//CAREFULL WHEN CHANGING THIS, numOfIters % sendingStep == 0(this must be true!)
         }
         private LowerTriangularMatrix<double> matrix;
         private Ant[] ants;
@@ -173,7 +174,7 @@ namespace algorithm
         public double shrotestDistance{get;private set;}
         public List<int> shortestPath{get; private set;}
         private Queue<IterationContext> resultQueue;
-
+        int sendingStep;
         private void initAnts(){
             for(int i = 0; i<antCount;++i ){
                 ants[i] = new Ant(start, new List<int>(Enumerable.Range(0, matrix.size)),
@@ -214,33 +215,30 @@ namespace algorithm
         }
         public void mainLoop(){
             int currIter = 0;
-
+            double shortestIterDist = -1;//shortest path in this iteration
+            List<int> shortestIterPath = null;
+            List<List<int>> antsRoutes = new List<List<int>>();
             while(running && currIter < this.numOfIters){
                 //Console.WriteLine($"iter: {currIter}");
                 //let them loose
                 foreach(Ant a in ants){
                     a.start();
                 }
-                List<List<int>> antsRoutes = new List<List<int>>();
                 //they are done
-                double shortestIterDist = -1;//shortest path in this iteration
-                List<int> shortestIterPath = null;
+
+                shortestIterDist = -1;//shortest path in this iteration
+                shortestIterPath = null;
+                antsRoutes = new List<List<int>>();
+                
                 foreach(Ant a in ants){
                     updatePheromoneMatrixCopy(a);
 
                     antsRoutes.Append(a.route);
-
-                    if(this.shrotestDistance == -1){
-                        this.shrotestDistance = a.distanceTraveled;
-                    }
-
-                    if(this.shortestPath == null){
-                        this.shortestPath = a.route;
-                    }
-
-                    if(this.shrotestDistance > a.distanceTraveled){
+                    
+                    if(this.shrotestDistance == -1 || this.shrotestDistance > a.distanceTraveled){
                         this.shrotestDistance = a.distanceTraveled;
                         this.shortestPath = a.route;
+
                     }
                     if(shortestIterDist == -1 || shortestIterDist > a.distanceTraveled){
                         shortestIterDist = a.distanceTraveled;
@@ -252,13 +250,18 @@ namespace algorithm
                 this.firstPass = false;
                 initAnts();
                 this.pheromoneMatrixCopy = new LowerTriangularMatrix<double>(matrix.size);
-                lock(this.resultQueue){
-                    this.resultQueue.Enqueue(new IterationContext(antsRoutes,shortestIterPath,pheromoneMatrix,currIter,
-                                                            numOfIters));
+                if(currIter % this.sendingStep == 0){
+                    lock(this.resultQueue){
+                        this.resultQueue.Enqueue(new IterationContext(antsRoutes,shortestIterPath,
+                                                    pheromoneMatrix,currIter,numOfIters));
+                    }
                 }
-                ++currIter;
-                //System.Threading.Thread.Sleep(100);//for testing purposes TODO: remove
-                
+                ++currIter;                
+            }
+            //last iter
+            lock(this.resultQueue){
+                this.resultQueue.Enqueue(new IterationContext(antsRoutes,shortestIterPath,
+                                            pheromoneMatrix,currIter-1,numOfIters));
             }
         }
     }
