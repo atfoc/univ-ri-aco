@@ -156,7 +156,7 @@ namespace GeneticNamespace {
             Random rnd = new Random();
             foreach(Colony child in this.newGeneration){
                 double mutationProb = rnd.NextDouble();
-                if(mutationProb < 1){
+                if(mutationProb < 0.03){
                     // Mutate
                     Console.WriteLine("Mutation!");
                     int r = rnd.Next(0, 6);
@@ -244,13 +244,16 @@ namespace GeneticNamespace {
                 crossingSpecies();
                 mutateSpecies();
                 swapWorstParents();
-                if(allTimeBest.fitness >  this.currentGeneration[this.currentGeneration.Count -1].fitness){
+                if(allTimeBest.fitness > 
+                                    this.currentGeneration[this.currentGeneration.Count -1].fitness){
                     //saving all time best
                     Console.WriteLine("New All time best!");
                     allTimeBest = new Colony(this.currentGeneration[this.currentGeneration.Count -1]);
                 }
-                Console.WriteLine("fitness: " + this.currentGeneration[this.currentGeneration.Count -1].fitness);
-                Console.WriteLine("length: " + this.currentGeneration[this.currentGeneration.Count -1].shorestDistance);
+                Console.WriteLine("fitness: " + this.currentGeneration[this.currentGeneration.Count -1]
+                                                                                            .fitness);
+                Console.WriteLine("length: " + this.currentGeneration[this.currentGeneration.Count -1]
+                                                                                        .shorestDistance);
                 Console.WriteLine("time: " + this.currentGeneration[this.currentGeneration.Count -1].time);
                 Console.WriteLine(string.Join(" ",allTimeBest.parameters));
                 // if(iter % 10 == 0){

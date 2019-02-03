@@ -11,16 +11,16 @@ using GeneticNamespace;
 
 namespace main{
 	class Program{
-	    static void begin(LowerTriangularMatrix<double> lt, int start, int antCount, double alpha, double beta,
-            double pheromoneEvaporationCoef, double pheromoneConstant, int maxIters,
-            Queue<IterationContext> cq)
+	    static void begin(LowerTriangularMatrix<double> lt, int start, int antCount, double alpha,
+                double beta,double pheromoneEvaporationCoef, double pheromoneConstant, int maxIters,
+                Queue<IterationContext> cq)
         {
             AntColony ac = new AntColony(lt,start,antCount,alpha,beta,pheromoneEvaporationCoef,
                                         pheromoneConstant ,maxIters, cq);
 
             ac.begin();
             int currIter = 0;
-            while(currIter != maxIters-1){
+            while(currIter < maxIters-1){
                 IterationContext it;
                 while(cq.TryDequeue(out it) == false);
                 currIter = it.currIter;
@@ -39,18 +39,9 @@ namespace main{
             double beta  = 8.8;
             double pheromoneEvaporationCoef = 0.7;
             double pheromoneConstant = 250;
-            int maxIters = 400;
-/*
-fitness: 33693.1366666667
-path: 33693.1366666667
-time: 10950
-78.9603615943158 0.267751112751547 8.7529256165926 0.777418508090739 249.945633648869 20.7502607119969
-
-31.1382287606309 0.819227674300423 3.17048806131374 0.186540887312284 6784.77668207361 29.9790193233541
-
- */
+            int maxIters = 100;
             
-            if(args[0] == "-g"){
+            if(args[0] == "-genarate"){
                 int numOfGraphs = 1;
                 int maxNodes = 20;
                 int minNodes = 5;
@@ -71,18 +62,18 @@ time: 10950
                 }
 
             }
-            else if(args[0] == "-r"){
+            else if(args[0] == "-run"){
                 LowerTriangularMatrix<double> lt = new LowerTriangularMatrix<double>(0);
                 lt.readFromFile(args[1]);
                 begin(lt,start, antCount, alpha, beta, pheromoneEvaporationCoef, pheromoneConstant
-                ,maxIters, cq);
+                        ,maxIters, cq);
             }
-            else if(args[0] == "-gen"){
+            else if(args[0] == "-genetic"){
                 GeneticAlg g = new GeneticAlg(5000);
                 g.start();
             }
             else{
-                Console.WriteLine("Need an option besides [-g,-gen,-r <path>]? Add it :D");
+                Console.WriteLine("Need an option besides [-generate,-genetic,-run <path>]? Add it :D");
                 return;
             }
             
