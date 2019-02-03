@@ -1,0 +1,6129 @@
+{
+    "array": [
+        {
+            "from": "Tirana",
+            "to": "Andorra la Vella",
+            "distance": 1518.31
+        },
+        {
+            "from": "Tirana",
+            "to": "Yerevan",
+            "distance": 2842.4
+        },
+        {
+            "from": "Tirana",
+            "to": "Vienna",
+            "distance": 1340.17
+        },
+        {
+            "from": "Tirana",
+            "to": "Baku",
+            "distance": 3208.5
+        },
+        {
+            "from": "Tirana",
+            "to": "Minsk",
+            "distance": 2207.43
+        },
+        {
+            "from": "Tirana",
+            "to": "Brussels",
+            "distance": 2143.93
+        },
+        {
+            "from": "Tirana",
+            "to": "Sarajevo",
+            "distance": 391.18
+        },
+        {
+            "from": "Tirana",
+            "to": "Sofia",
+            "distance": 539.26
+        },
+        {
+            "from": "Tirana",
+            "to": "Zagreb",
+            "distance": 587.45
+        },
+        {
+            "from": "Tirana",
+            "to": "Nicosia",
+            "distance": 2034.8
+        },
+        {
+            "from": "Tirana",
+            "to": "Prague",
+            "distance": 1622.07
+        },
+        {
+            "from": "Tirana",
+            "to": "Copenhagen",
+            "distance": 2404.39
+        },
+        {
+            "from": "Tirana",
+            "to": "Tallinn",
+            "distance": 2958.91
+        },
+        {
+            "from": "Tirana",
+            "to": "Torshavn",
+            "distance": 3948.13
+        },
+        {
+            "from": "Tirana",
+            "to": "Helsinki",
+            "distance": 3045.76
+        },
+        {
+            "from": "Tirana",
+            "to": "Paris",
+            "distance": 1994.99
+        },
+        {
+            "from": "Tirana",
+            "to": "Tbilisi",
+            "distance": 2634.19
+        },
+        {
+            "from": "Tirana",
+            "to": "Berlin",
+            "distance": 1970.48
+        },
+        {
+            "from": "Tirana",
+            "to": "Gibraltar",
+            "distance": 3153.79
+        },
+        {
+            "from": "Tirana",
+            "to": "Athens",
+            "distance": 500.66
+        },
+        {
+            "from": "Tirana",
+            "to": "Vatican City",
+            "distance": 738.26
+        },
+        {
+            "from": "Tirana",
+            "to": "Budapest",
+            "distance": 1104.87
+        },
+        {
+            "from": "Tirana",
+            "to": "Reykjavik",
+            "distance": 5023.99
+        },
+        {
+            "from": "Tirana",
+            "to": "Dublin",
+            "distance": 3038.7
+        },
+        {
+            "from": "Tirana",
+            "to": "Rome",
+            "distance": 612.57
+        },
+        {
+            "from": "Tirana",
+            "to": "Riga",
+            "distance": 2649.36
+        },
+        {
+            "from": "Tirana",
+            "to": "Vaduz",
+            "distance": 1409.11
+        },
+        {
+            "from": "Tirana",
+            "to": "Vilnius",
+            "distance": 2452.0
+        },
+        {
+            "from": "Tirana",
+            "to": "Luxembourg",
+            "distance": 1906.35
+        },
+        {
+            "from": "Tirana",
+            "to": "Skopje",
+            "distance": 153.4
+        },
+        {
+            "from": "Tirana",
+            "to": "Valletta",
+            "distance": 1054.8
+        },
+        {
+            "from": "Tirana",
+            "to": "Chisinau",
+            "distance": 1363.45
+        },
+        {
+            "from": "Tirana",
+            "to": "Podgorica",
+            "distance": 131.23
+        },
+        {
+            "from": "Tirana",
+            "to": "Amsterdam",
+            "distance": 2182.48
+        },
+        {
+            "from": "Tirana",
+            "to": "Oslo",
+            "distance": 2161.16
+        },
+        {
+            "from": "Tirana",
+            "to": "Warsaw",
+            "distance": 1216.98
+        },
+        {
+            "from": "Tirana",
+            "to": "Lisbon",
+            "distance": 2473.89
+        },
+        {
+            "from": "Tirana",
+            "to": "Bucharest",
+            "distance": 926.74
+        },
+        {
+            "from": "Tirana",
+            "to": "Moscow",
+            "distance": 2916.07
+        },
+        {
+            "from": "Tirana",
+            "to": "San Marino",
+            "distance": 836.17
+        },
+        {
+            "from": "Tirana",
+            "to": "Belgrade",
+            "distance": 388.45
+        },
+        {
+            "from": "Tirana",
+            "to": "Bratislava",
+            "distance": 1298.26
+        },
+        {
+            "from": "Tirana",
+            "to": "Ljubljana",
+            "distance": 677.94
+        },
+        {
+            "from": "Tirana",
+            "to": "Madrid",
+            "distance": 2665.48
+        },
+        {
+            "from": "Tirana",
+            "to": "Stockholm",
+            "distance": 3048.91
+        },
+        {
+            "from": "Tirana",
+            "to": "Bern",
+            "distance": 1504.55
+        },
+        {
+            "from": "Tirana",
+            "to": "Ankara",
+            "distance": 1111.54
+        },
+        {
+            "from": "Tirana",
+            "to": "Kyiv",
+            "distance": 2206.72
+        },
+        {
+            "from": "Tirana",
+            "to": "London",
+            "distance": 2448.91
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Yerevan",
+            "distance": 4806.26
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Vienna",
+            "distance": 1824.61
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Baku",
+            "distance": 5172.36
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Minsk",
+            "distance": 2913.64
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Brussels",
+            "distance": 1170.18
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Sarajevo",
+            "distance": 1992.65
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Sofia",
+            "distance": 2400.85
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Zagreb",
+            "distance": 1619.63
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Nicosia",
+            "distance": 3998.66
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Prague",
+            "distance": 1740.27
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Copenhagen",
+            "distance": 2071.28
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Tallinn",
+            "distance": 3344.94
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Torshavn",
+            "distance": 3423.07
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Helsinki",
+            "distance": 3431.79
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Paris",
+            "distance": 859.87
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Tbilisi",
+            "distance": 4598.06
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Berlin",
+            "distance": 1890.14
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Gibraltar",
+            "distance": 1190.35
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Athens",
+            "distance": 2669.39
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Vatican City",
+            "distance": 1367.17
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Budapest",
+            "distance": 1945.8
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Reykjavik",
+            "distance": 4498.94
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Dublin",
+            "distance": 1911.2
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Rome",
+            "distance": 1385.03
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Riga",
+            "distance": 3035.39
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Vaduz",
+            "distance": 1194.36
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Vilnius",
+            "distance": 2838.03
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Luxembourg",
+            "distance": 1211.49
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Skopje",
+            "distance": 2440.57
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Valletta",
+            "distance": 2404.33
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Chisinau",
+            "distance": 3028.23
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Podgorica",
+            "distance": 2190.39
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Amsterdam",
+            "distance": 1358.38
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Oslo",
+            "distance": 2547.98
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Warsaw",
+            "distance": 2377.88
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Lisbon",
+            "distance": 1232.68
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Bucharest",
+            "distance": 2770.98
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Moscow",
+            "distance": 3622.28
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "San Marino",
+            "distance": 1286.34
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Belgrade",
+            "distance": 2009.52
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Bratislava",
+            "distance": 1919.71
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Ljubljana",
+            "distance": 1484.01
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Madrid",
+            "distance": 608.85
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Stockholm",
+            "distance": 2715.8
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Bern",
+            "distance": 966.37
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Ankara",
+            "distance": 3408.19
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "Kyiv",
+            "distance": 3132.1
+        },
+        {
+            "from": "Andorra la Vella",
+            "to": "London",
+            "distance": 1321.42
+        },
+        {
+            "from": "Yerevan",
+            "to": "Vienna",
+            "distance": 3418.77
+        },
+        {
+            "from": "Yerevan",
+            "to": "Baku",
+            "distance": 690.18
+        },
+        {
+            "from": "Yerevan",
+            "to": "Minsk",
+            "distance": 2828.49
+        },
+        {
+            "from": "Yerevan",
+            "to": "Brussels",
+            "distance": 4532.58
+        },
+        {
+            "from": "Yerevan",
+            "to": "Sarajevo",
+            "distance": 3016.85
+        },
+        {
+            "from": "Yerevan",
+            "to": "Sofia",
+            "distance": 2405.55
+        },
+        {
+            "from": "Yerevan",
+            "to": "Zagreb",
+            "distance": 3197.65
+        },
+        {
+            "from": "Yerevan",
+            "to": "Nicosia",
+            "distance": 1780.9
+        },
+        {
+            "from": "Yerevan",
+            "to": "Prague",
+            "distance": 3700.67
+        },
+        {
+            "from": "Yerevan",
+            "to": "Copenhagen",
+            "distance": 3872.82
+        },
+        {
+            "from": "Yerevan",
+            "to": "Tallinn",
+            "distance": 3279.22
+        },
+        {
+            "from": "Yerevan",
+            "to": "Torshavn",
+            "distance": 5391.1
+        },
+        {
+            "from": "Yerevan",
+            "to": "Helsinki",
+            "distance": 3359.86
+        },
+        {
+            "from": "Yerevan",
+            "to": "Paris",
+            "distance": 4586.43
+        },
+        {
+            "from": "Yerevan",
+            "to": "Tbilisi",
+            "distance": 275.2
+        },
+        {
+            "from": "Yerevan",
+            "to": "Berlin",
+            "distance": 3436.13
+        },
+        {
+            "from": "Yerevan",
+            "to": "Gibraltar",
+            "distance": 5880.03
+        },
+        {
+            "from": "Yerevan",
+            "to": "Athens",
+            "distance": 2948.98
+        },
+        {
+            "from": "Yerevan",
+            "to": "Vatican City",
+            "distance": 4089.68
+        },
+        {
+            "from": "Yerevan",
+            "to": "Budapest",
+            "distance": 3183.47
+        },
+        {
+            "from": "Yerevan",
+            "to": "Reykjavik",
+            "distance": 6466.97
+        },
+        {
+            "from": "Yerevan",
+            "to": "Dublin",
+            "distance": 5496.56
+        },
+        {
+            "from": "Yerevan",
+            "to": "Rome",
+            "distance": 4083.63
+        },
+        {
+            "from": "Yerevan",
+            "to": "Riga",
+            "distance": 3161.58
+        },
+        {
+            "from": "Yerevan",
+            "to": "Vaduz",
+            "distance": 3981.26
+        },
+        {
+            "from": "Yerevan",
+            "to": "Vilnius",
+            "distance": 3185.31
+        },
+        {
+            "from": "Yerevan",
+            "to": "Luxembourg",
+            "distance": 4369.54
+        },
+        {
+            "from": "Yerevan",
+            "to": "Skopje",
+            "distance": 2664.95
+        },
+        {
+            "from": "Yerevan",
+            "to": "Valletta",
+            "distance": 3829.26
+        },
+        {
+            "from": "Yerevan",
+            "to": "Chisinau",
+            "distance": 2070.22
+        },
+        {
+            "from": "Yerevan",
+            "to": "Podgorica",
+            "distance": 3009.82
+        },
+        {
+            "from": "Yerevan",
+            "to": "Amsterdam",
+            "distance": 4056.03
+        },
+        {
+            "from": "Yerevan",
+            "to": "Oslo",
+            "distance": 4290.23
+        },
+        {
+            "from": "Yerevan",
+            "to": "Warsaw",
+            "distance": 2887.19
+        },
+        {
+            "from": "Yerevan",
+            "to": "Lisbon",
+            "distance": 5944.99
+        },
+        {
+            "from": "Yerevan",
+            "to": "Bucharest",
+            "distance": 2492.65
+        },
+        {
+            "from": "Yerevan",
+            "to": "Moscow",
+            "distance": 2249.3
+        },
+        {
+            "from": "Yerevan",
+            "to": "San Marino",
+            "distance": 3835.2
+        },
+        {
+            "from": "Yerevan",
+            "to": "Belgrade",
+            "distance": 2808.87
+        },
+        {
+            "from": "Yerevan",
+            "to": "Bratislava",
+            "distance": 3376.86
+        },
+        {
+            "from": "Yerevan",
+            "to": "Ljubljana",
+            "distance": 3335.69
+        },
+        {
+            "from": "Yerevan",
+            "to": "Madrid",
+            "distance": 5391.72
+        },
+        {
+            "from": "Yerevan",
+            "to": "Stockholm",
+            "distance": 3681.28
+        },
+        {
+            "from": "Yerevan",
+            "to": "Bern",
+            "distance": 4171.76
+        },
+        {
+            "from": "Yerevan",
+            "to": "Ankara",
+            "distance": 1484.99
+        },
+        {
+            "from": "Yerevan",
+            "to": "Kyiv",
+            "distance": 2100.57
+        },
+        {
+            "from": "Yerevan",
+            "to": "London",
+            "distance": 4906.78
+        },
+        {
+            "from": "Vienna",
+            "to": "Baku",
+            "distance": 3522.54
+        },
+        {
+            "from": "Vienna",
+            "to": "Minsk",
+            "distance": 1243.21
+        },
+        {
+            "from": "Vienna",
+            "to": "Brussels",
+            "distance": 1108.04
+        },
+        {
+            "from": "Vienna",
+            "to": "Sarajevo",
+            "distance": 763.58
+        },
+        {
+            "from": "Vienna",
+            "to": "Sofia",
+            "distance": 1004.41
+        },
+        {
+            "from": "Vienna",
+            "to": "Zagreb",
+            "distance": 375.83
+        },
+        {
+            "from": "Vienna",
+            "to": "Nicosia",
+            "distance": 2602.22
+        },
+        {
+            "from": "Vienna",
+            "to": "Prague",
+            "distance": 332.95
+        },
+        {
+            "from": "Vienna",
+            "to": "Copenhagen",
+            "distance": 1115.27
+        },
+        {
+            "from": "Vienna",
+            "to": "Tallinn",
+            "distance": 1674.5
+        },
+        {
+            "from": "Vienna",
+            "to": "Torshavn",
+            "distance": 2659.01
+        },
+        {
+            "from": "Vienna",
+            "to": "Helsinki",
+            "distance": 1761.35
+        },
+        {
+            "from": "Vienna",
+            "to": "Paris",
+            "distance": 1236.34
+        },
+        {
+            "from": "Vienna",
+            "to": "Tbilisi",
+            "distance": 3201.62
+        },
+        {
+            "from": "Vienna",
+            "to": "Berlin",
+            "distance": 681.36
+        },
+        {
+            "from": "Vienna",
+            "to": "Gibraltar",
+            "distance": 2887.54
+        },
+        {
+            "from": "Vienna",
+            "to": "Athens",
+            "distance": 1707.4
+        },
+        {
+            "from": "Vienna",
+            "to": "Vatican City",
+            "distance": 1127.29
+        },
+        {
+            "from": "Vienna",
+            "to": "Budapest",
+            "distance": 242.71
+        },
+        {
+            "from": "Vienna",
+            "to": "Reykjavik",
+            "distance": 3734.88
+        },
+        {
+            "from": "Vienna",
+            "to": "Dublin",
+            "distance": 2072.01
+        },
+        {
+            "from": "Vienna",
+            "to": "Rome",
+            "distance": 1121.24
+        },
+        {
+            "from": "Vienna",
+            "to": "Riga",
+            "distance": 1364.95
+        },
+        {
+            "from": "Vienna",
+            "to": "Vaduz",
+            "distance": 672.55
+        },
+        {
+            "from": "Vienna",
+            "to": "Vilnius",
+            "distance": 1167.59
+        },
+        {
+            "from": "Vienna",
+            "to": "Luxembourg",
+            "distance": 944.99
+        },
+        {
+            "from": "Vienna",
+            "to": "Skopje",
+            "distance": 1044.13
+        },
+        {
+            "from": "Vienna",
+            "to": "Valletta",
+            "distance": 2140.54
+        },
+        {
+            "from": "Vienna",
+            "to": "Chisinau",
+            "distance": 1328.8
+        },
+        {
+            "from": "Vienna",
+            "to": "Podgorica",
+            "distance": 1068.8
+        },
+        {
+            "from": "Vienna",
+            "to": "Amsterdam",
+            "distance": 1146.59
+        },
+        {
+            "from": "Vienna",
+            "to": "Oslo",
+            "distance": 1709.45
+        },
+        {
+            "from": "Vienna",
+            "to": "Warsaw",
+            "distance": 682.87
+        },
+        {
+            "from": "Vienna",
+            "to": "Lisbon",
+            "distance": 2909.58
+        },
+        {
+            "from": "Vienna",
+            "to": "Bucharest",
+            "distance": 1071.54
+        },
+        {
+            "from": "Vienna",
+            "to": "Moscow",
+            "distance": 1951.85
+        },
+        {
+            "from": "Vienna",
+            "to": "San Marino",
+            "distance": 872.81
+        },
+        {
+            "from": "Vienna",
+            "to": "Belgrade",
+            "distance": 613.09
+        },
+        {
+            "from": "Vienna",
+            "to": "Bratislava",
+            "distance": 80.06
+        },
+        {
+            "from": "Vienna",
+            "to": "Ljubljana",
+            "distance": 383.99
+        },
+        {
+            "from": "Vienna",
+            "to": "Madrid",
+            "distance": 2399.22
+        },
+        {
+            "from": "Vienna",
+            "to": "Stockholm",
+            "distance": 1759.79
+        },
+        {
+            "from": "Vienna",
+            "to": "Bern",
+            "distance": 863.52
+        },
+        {
+            "from": "Vienna",
+            "to": "Ankara",
+            "distance": 2011.75
+        },
+        {
+            "from": "Vienna",
+            "to": "Kyiv",
+            "distance": 1324.85
+        },
+        {
+            "from": "Vienna",
+            "to": "London",
+            "distance": 1482.23
+        },
+        {
+            "from": "Baku",
+            "to": "Minsk",
+            "distance": 2853.41
+        },
+        {
+            "from": "Baku",
+            "to": "Brussels",
+            "distance": 4327.13
+        },
+        {
+            "from": "Baku",
+            "to": "Sarajevo",
+            "distance": 3397.18
+        },
+        {
+            "from": "Baku",
+            "to": "Sofia",
+            "distance": 2785.88
+        },
+        {
+            "from": "Baku",
+            "to": "Zagreb",
+            "distance": 3577.98
+        },
+        {
+            "from": "Baku",
+            "to": "Nicosia",
+            "distance": 2070.42
+        },
+        {
+            "from": "Baku",
+            "to": "Prague",
+            "distance": 3658.16
+        },
+        {
+            "from": "Baku",
+            "to": "Copenhagen",
+            "distance": 4034.74
+        },
+        {
+            "from": "Baku",
+            "to": "Tallinn",
+            "distance": 3304.15
+        },
+        {
+            "from": "Baku",
+            "to": "Torshavn",
+            "distance": 5553.02
+        },
+        {
+            "from": "Baku",
+            "to": "Helsinki",
+            "distance": 3384.79
+        },
+        {
+            "from": "Baku",
+            "to": "Paris",
+            "distance": 4663.04
+        },
+        {
+            "from": "Baku",
+            "to": "Tbilisi",
+            "distance": 582.07
+        },
+        {
+            "from": "Baku",
+            "to": "Berlin",
+            "distance": 3598.05
+        },
+        {
+            "from": "Baku",
+            "to": "Gibraltar",
+            "distance": 6260.36
+        },
+        {
+            "from": "Baku",
+            "to": "Athens",
+            "distance": 3329.31
+        },
+        {
+            "from": "Baku",
+            "to": "Vatican City",
+            "distance": 4470.01
+        },
+        {
+            "from": "Baku",
+            "to": "Budapest",
+            "distance": 3563.8
+        },
+        {
+            "from": "Baku",
+            "to": "Reykjavik",
+            "distance": 6628.89
+        },
+        {
+            "from": "Baku",
+            "to": "Dublin",
+            "distance": 5254.46
+        },
+        {
+            "from": "Baku",
+            "to": "Rome",
+            "distance": 4463.96
+        },
+        {
+            "from": "Baku",
+            "to": "Riga",
+            "distance": 3186.51
+        },
+        {
+            "from": "Baku",
+            "to": "Vaduz",
+            "distance": 4269.54
+        },
+        {
+            "from": "Baku",
+            "to": "Vilnius",
+            "distance": 3210.23
+        },
+        {
+            "from": "Baku",
+            "to": "Luxembourg",
+            "distance": 4323.58
+        },
+        {
+            "from": "Baku",
+            "to": "Skopje",
+            "distance": 3045.28
+        },
+        {
+            "from": "Baku",
+            "to": "Valletta",
+            "distance": 4209.59
+        },
+        {
+            "from": "Baku",
+            "to": "Chisinau",
+            "distance": 2321.31
+        },
+        {
+            "from": "Baku",
+            "to": "Podgorica",
+            "distance": 3390.15
+        },
+        {
+            "from": "Baku",
+            "to": "Amsterdam",
+            "distance": 4217.96
+        },
+        {
+            "from": "Baku",
+            "to": "Oslo",
+            "distance": 4190.2
+        },
+        {
+            "from": "Baku",
+            "to": "Warsaw",
+            "distance": 3049.11
+        },
+        {
+            "from": "Baku",
+            "to": "Lisbon",
+            "distance": 6325.32
+        },
+        {
+            "from": "Baku",
+            "to": "Bucharest",
+            "distance": 2872.98
+        },
+        {
+            "from": "Baku",
+            "to": "Moscow",
+            "distance": 2274.23
+        },
+        {
+            "from": "Baku",
+            "to": "San Marino",
+            "distance": 4215.53
+        },
+        {
+            "from": "Baku",
+            "to": "Belgrade",
+            "distance": 3189.2
+        },
+        {
+            "from": "Baku",
+            "to": "Bratislava",
+            "distance": 3579.16
+        },
+        {
+            "from": "Baku",
+            "to": "Ljubljana",
+            "distance": 3716.02
+        },
+        {
+            "from": "Baku",
+            "to": "Madrid",
+            "distance": 5772.05
+        },
+        {
+            "from": "Baku",
+            "to": "Stockholm",
+            "distance": 3706.21
+        },
+        {
+            "from": "Baku",
+            "to": "Bern",
+            "distance": 4470.46
+        },
+        {
+            "from": "Baku",
+            "to": "Ankara",
+            "distance": 1986.4
+        },
+        {
+            "from": "Baku",
+            "to": "Kyiv",
+            "distance": 2262.5
+        },
+        {
+            "from": "Baku",
+            "to": "London",
+            "distance": 4664.68
+        },
+        {
+            "from": "Minsk",
+            "to": "Brussels",
+            "distance": 1837.47
+        },
+        {
+            "from": "Minsk",
+            "to": "Sarajevo",
+            "distance": 1671.16
+        },
+        {
+            "from": "Minsk",
+            "to": "Sofia",
+            "distance": 1873.78
+        },
+        {
+            "from": "Minsk",
+            "to": "Zagreb",
+            "distance": 1610.1
+        },
+        {
+            "from": "Minsk",
+            "to": "Nicosia",
+            "distance": 2728.2
+        },
+        {
+            "from": "Minsk",
+            "to": "Prague",
+            "distance": 1217.35
+        },
+        {
+            "from": "Minsk",
+            "to": "Copenhagen",
+            "distance": 1545.09
+        },
+        {
+            "from": "Minsk",
+            "to": "Tallinn",
+            "distance": 787.57
+        },
+        {
+            "from": "Minsk",
+            "to": "Torshavn",
+            "distance": 3063.37
+        },
+        {
+            "from": "Minsk",
+            "to": "Helsinki",
+            "distance": 874.41
+        },
+        {
+            "from": "Minsk",
+            "to": "Paris",
+            "distance": 2127.57
+        },
+        {
+            "from": "Minsk",
+            "to": "Tbilisi",
+            "distance": 2559.99
+        },
+        {
+            "from": "Minsk",
+            "to": "Berlin",
+            "distance": 1108.39
+        },
+        {
+            "from": "Minsk",
+            "to": "Gibraltar",
+            "distance": 3975.32
+        },
+        {
+            "from": "Minsk",
+            "to": "Athens",
+            "distance": 2576.76
+        },
+        {
+            "from": "Minsk",
+            "to": "Vatican City",
+            "distance": 2361.56
+        },
+        {
+            "from": "Minsk",
+            "to": "Budapest",
+            "distance": 1116.65
+        },
+        {
+            "from": "Minsk",
+            "to": "Reykjavik",
+            "distance": 4139.24
+        },
+        {
+            "from": "Minsk",
+            "to": "Dublin",
+            "distance": 2764.8
+        },
+        {
+            "from": "Minsk",
+            "to": "Rome",
+            "distance": 2355.51
+        },
+        {
+            "from": "Minsk",
+            "to": "Riga",
+            "distance": 478.01
+        },
+        {
+            "from": "Minsk",
+            "to": "Vaduz",
+            "distance": 1804.52
+        },
+        {
+            "from": "Minsk",
+            "to": "Vilnius",
+            "distance": 186.92
+        },
+        {
+            "from": "Minsk",
+            "to": "Luxembourg",
+            "distance": 1833.96
+        },
+        {
+            "from": "Minsk",
+            "to": "Skopje",
+            "distance": 1913.49
+        },
+        {
+            "from": "Minsk",
+            "to": "Valletta",
+            "distance": 3374.81
+        },
+        {
+            "from": "Minsk",
+            "to": "Chisinau",
+            "distance": 1031.98
+        },
+        {
+            "from": "Minsk",
+            "to": "Podgorica",
+            "distance": 1901.74
+        },
+        {
+            "from": "Minsk",
+            "to": "Amsterdam",
+            "distance": 1728.3
+        },
+        {
+            "from": "Minsk",
+            "to": "Oslo",
+            "distance": 1962.5
+        },
+        {
+            "from": "Minsk",
+            "to": "Warsaw",
+            "distance": 545.99
+        },
+        {
+            "from": "Minsk",
+            "to": "Lisbon",
+            "distance": 3918.19
+        },
+        {
+            "from": "Minsk",
+            "to": "Bucharest",
+            "distance": 1370.86
+        },
+        {
+            "from": "Minsk",
+            "to": "Moscow",
+            "distance": 717.02
+        },
+        {
+            "from": "Minsk",
+            "to": "San Marino",
+            "distance": 2107.08
+        },
+        {
+            "from": "Minsk",
+            "to": "Belgrade",
+            "distance": 1482.45
+        },
+        {
+            "from": "Minsk",
+            "to": "Bratislava",
+            "distance": 1235.11
+        },
+        {
+            "from": "Minsk",
+            "to": "Ljubljana",
+            "distance": 1618.26
+        },
+        {
+            "from": "Minsk",
+            "to": "Madrid",
+            "distance": 3458.05
+        },
+        {
+            "from": "Minsk",
+            "to": "Stockholm",
+            "distance": 966.12
+        },
+        {
+            "from": "Minsk",
+            "to": "Bern",
+            "distance": 1980.84
+        },
+        {
+            "from": "Minsk",
+            "to": "Ankara",
+            "distance": 2117.0
+        },
+        {
+            "from": "Minsk",
+            "to": "Kyiv",
+            "distance": 567.81
+        },
+        {
+            "from": "Minsk",
+            "to": "London",
+            "distance": 2175.02
+        },
+        {
+            "from": "Brussels",
+            "to": "Sarajevo",
+            "distance": 1660.98
+        },
+        {
+            "from": "Brussels",
+            "to": "Sofia",
+            "distance": 2117.35
+        },
+        {
+            "from": "Brussels",
+            "to": "Zagreb",
+            "distance": 1288.25
+        },
+        {
+            "from": "Brussels",
+            "to": "Nicosia",
+            "distance": 3715.16
+        },
+        {
+            "from": "Brussels",
+            "to": "Prague",
+            "distance": 902.46
+        },
+        {
+            "from": "Brussels",
+            "to": "Copenhagen",
+            "distance": 919.63
+        },
+        {
+            "from": "Brussels",
+            "to": "Tallinn",
+            "distance": 2268.82
+        },
+        {
+            "from": "Brussels",
+            "to": "Torshavn",
+            "distance": 2271.42
+        },
+        {
+            "from": "Brussels",
+            "to": "Helsinki",
+            "distance": 2355.67
+        },
+        {
+            "from": "Brussels",
+            "to": "Paris",
+            "distance": 312.22
+        },
+        {
+            "from": "Brussels",
+            "to": "Tbilisi",
+            "distance": 3899.84
+        },
+        {
+            "from": "Brussels",
+            "to": "Berlin",
+            "distance": 764.62
+        },
+        {
+            "from": "Brussels",
+            "to": "Gibraltar",
+            "distance": 2231.11
+        },
+        {
+            "from": "Brussels",
+            "to": "Athens",
+            "distance": 2820.34
+        },
+        {
+            "from": "Brussels",
+            "to": "Vatican City",
+            "distance": 1494.17
+        },
+        {
+            "from": "Brussels",
+            "to": "Budapest",
+            "distance": 1355.65
+        },
+        {
+            "from": "Brussels",
+            "to": "Reykjavik",
+            "distance": 3347.29
+        },
+        {
+            "from": "Brussels",
+            "to": "Dublin",
+            "distance": 964.13
+        },
+        {
+            "from": "Brussels",
+            "to": "Rome",
+            "distance": 1488.12
+        },
+        {
+            "from": "Brussels",
+            "to": "Riga",
+            "distance": 1959.27
+        },
+        {
+            "from": "Brussels",
+            "to": "Vaduz",
+            "distance": 765.34
+        },
+        {
+            "from": "Brussels",
+            "to": "Vilnius",
+            "distance": 1761.91
+        },
+        {
+            "from": "Brussels",
+            "to": "Luxembourg",
+            "distance": 198.37
+        },
+        {
+            "from": "Brussels",
+            "to": "Skopje",
+            "distance": 2157.07
+        },
+        {
+            "from": "Brussels",
+            "to": "Valletta",
+            "distance": 2507.42
+        },
+        {
+            "from": "Brussels",
+            "to": "Chisinau",
+            "distance": 2220.93
+        },
+        {
+            "from": "Brussels",
+            "to": "Podgorica",
+            "distance": 1981.22
+        },
+        {
+            "from": "Brussels",
+            "to": "Amsterdam",
+            "distance": 211.43
+        },
+        {
+            "from": "Brussels",
+            "to": "Oslo",
+            "distance": 1396.33
+        },
+        {
+            "from": "Brussels",
+            "to": "Warsaw",
+            "distance": 1301.77
+        },
+        {
+            "from": "Brussels",
+            "to": "Lisbon",
+            "distance": 2038.17
+        },
+        {
+            "from": "Brussels",
+            "to": "Bucharest",
+            "distance": 2184.48
+        },
+        {
+            "from": "Brussels",
+            "to": "Moscow",
+            "distance": 2546.17
+        },
+        {
+            "from": "Brussels",
+            "to": "San Marino",
+            "distance": 1258.91
+        },
+        {
+            "from": "Brussels",
+            "to": "Belgrade",
+            "distance": 1726.02
+        },
+        {
+            "from": "Brussels",
+            "to": "Bratislava",
+            "distance": 1193.0
+        },
+        {
+            "from": "Brussels",
+            "to": "Ljubljana",
+            "distance": 1192.77
+        },
+        {
+            "from": "Brussels",
+            "to": "Madrid",
+            "distance": 1578.04
+        },
+        {
+            "from": "Brussels",
+            "to": "Stockholm",
+            "distance": 1564.15
+        },
+        {
+            "from": "Brussels",
+            "to": "Bern",
+            "distance": 670.37
+        },
+        {
+            "from": "Brussels",
+            "to": "Ankara",
+            "distance": 3124.69
+        },
+        {
+            "from": "Brussels",
+            "to": "Kyiv",
+            "distance": 2067.35
+        },
+        {
+            "from": "Brussels",
+            "to": "London",
+            "distance": 374.34
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Sofia",
+            "distance": 601.75
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Zagreb",
+            "distance": 398.09
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Nicosia",
+            "distance": 2199.56
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Prague",
+            "distance": 1063.45
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Copenhagen",
+            "distance": 1868.81
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Tallinn",
+            "distance": 2400.29
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Torshavn",
+            "distance": 3364.58
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Helsinki",
+            "distance": 2487.14
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Paris",
+            "distance": 1786.87
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Tbilisi",
+            "distance": 2798.96
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Berlin",
+            "distance": 1411.86
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Gibraltar",
+            "distance": 3080.47
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Athens",
+            "distance": 1080.84
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Vatican City",
+            "distance": 1290.13
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Budapest",
+            "distance": 565.67
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Reykjavik",
+            "distance": 4440.45
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Dublin",
+            "distance": 2648.44
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Rome",
+            "distance": 1284.07
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Riga",
+            "distance": 2090.74
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Vaduz",
+            "distance": 1181.7
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Vilnius",
+            "distance": 1893.38
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Luxembourg",
+            "distance": 1509.87
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Skopje",
+            "distance": 641.47
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Valletta",
+            "distance": 1233.15
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Chisinau",
+            "distance": 1246.38
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Podgorica",
+            "distance": 229.6
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Amsterdam",
+            "distance": 1723.02
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Oslo",
+            "distance": 2463.0
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Warsaw",
+            "distance": 1408.66
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Lisbon",
+            "distance": 3145.43
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Bucharest",
+            "distance": 881.92
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Moscow",
+            "distance": 2396.28
+        },
+        {
+            "from": "Sarajevo",
+            "to": "San Marino",
+            "distance": 1035.65
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Belgrade",
+            "distance": 292.28
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Bratislava",
+            "distance": 739.64
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Ljubljana",
+            "distance": 536.13
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Madrid",
+            "distance": 2592.16
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Stockholm",
+            "distance": 2513.33
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Bern",
+            "distance": 1372.2
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Ankara",
+            "distance": 1609.1
+        },
+        {
+            "from": "Sarajevo",
+            "to": "Kyiv",
+            "distance": 1686.93
+        },
+        {
+            "from": "Sarajevo",
+            "to": "London",
+            "distance": 2058.66
+        },
+        {
+            "from": "Sofia",
+            "to": "Zagreb",
+            "distance": 783.58
+        },
+        {
+            "from": "Sofia",
+            "to": "Nicosia",
+            "distance": 1590.14
+        },
+        {
+            "from": "Sofia",
+            "to": "Prague",
+            "distance": 1286.6
+        },
+        {
+            "from": "Sofia",
+            "to": "Copenhagen",
+            "distance": 2068.92
+        },
+        {
+            "from": "Sofia",
+            "to": "Tallinn",
+            "distance": 2623.44
+        },
+        {
+            "from": "Sofia",
+            "to": "Torshavn",
+            "distance": 3612.66
+        },
+        {
+            "from": "Sofia",
+            "to": "Helsinki",
+            "distance": 2710.29
+        },
+        {
+            "from": "Sofia",
+            "to": "Paris",
+            "distance": 2172.36
+        },
+        {
+            "from": "Sofia",
+            "to": "Tbilisi",
+            "distance": 2189.54
+        },
+        {
+            "from": "Sofia",
+            "to": "Berlin",
+            "distance": 1635.01
+        },
+        {
+            "from": "Sofia",
+            "to": "Gibraltar",
+            "distance": 3465.96
+        },
+        {
+            "from": "Sofia",
+            "to": "Athens",
+            "distance": 791.44
+        },
+        {
+            "from": "Sofia",
+            "to": "Vatican City",
+            "distance": 1675.62
+        },
+        {
+            "from": "Sofia",
+            "to": "Budapest",
+            "distance": 769.4
+        },
+        {
+            "from": "Sofia",
+            "to": "Reykjavik",
+            "distance": 4688.53
+        },
+        {
+            "from": "Sofia",
+            "to": "Dublin",
+            "distance": 3082.49
+        },
+        {
+            "from": "Sofia",
+            "to": "Rome",
+            "distance": 1669.56
+        },
+        {
+            "from": "Sofia",
+            "to": "Riga",
+            "distance": 2313.89
+        },
+        {
+            "from": "Sofia",
+            "to": "Vaduz",
+            "distance": 1567.19
+        },
+        {
+            "from": "Sofia",
+            "to": "Vilnius",
+            "distance": 2116.53
+        },
+        {
+            "from": "Sofia",
+            "to": "Luxembourg",
+            "distance": 1955.46
+        },
+        {
+            "from": "Sofia",
+            "to": "Skopje",
+            "distance": 244.22
+        },
+        {
+            "from": "Sofia",
+            "to": "Valletta",
+            "distance": 1671.72
+        },
+        {
+            "from": "Sofia",
+            "to": "Chisinau",
+            "distance": 821.42
+        },
+        {
+            "from": "Sofia",
+            "to": "Podgorica",
+            "distance": 571.17
+        },
+        {
+            "from": "Sofia",
+            "to": "Amsterdam",
+            "distance": 2157.07
+        },
+        {
+            "from": "Sofia",
+            "to": "Oslo",
+            "distance": 2663.1
+        },
+        {
+            "from": "Sofia",
+            "to": "Warsaw",
+            "distance": 1631.81
+        },
+        {
+            "from": "Sofia",
+            "to": "Lisbon",
+            "distance": 3530.92
+        },
+        {
+            "from": "Sofia",
+            "to": "Bucharest",
+            "distance": 384.71
+        },
+        {
+            "from": "Sofia",
+            "to": "Moscow",
+            "distance": 2164.04
+        },
+        {
+            "from": "Sofia",
+            "to": "San Marino",
+            "distance": 1421.13
+        },
+        {
+            "from": "Sofia",
+            "to": "Belgrade",
+            "distance": 394.8
+        },
+        {
+            "from": "Sofia",
+            "to": "Bratislava",
+            "distance": 962.79
+        },
+        {
+            "from": "Sofia",
+            "to": "Ljubljana",
+            "distance": 921.62
+        },
+        {
+            "from": "Sofia",
+            "to": "Madrid",
+            "distance": 2977.65
+        },
+        {
+            "from": "Sofia",
+            "to": "Stockholm",
+            "distance": 2713.44
+        },
+        {
+            "from": "Sofia",
+            "to": "Bern",
+            "distance": 1757.69
+        },
+        {
+            "from": "Sofia",
+            "to": "Ankara",
+            "distance": 999.67
+        },
+        {
+            "from": "Sofia",
+            "to": "Kyiv",
+            "distance": 1301.61
+        },
+        {
+            "from": "Sofia",
+            "to": "London",
+            "distance": 2492.71
+        },
+        {
+            "from": "Zagreb",
+            "to": "Nicosia",
+            "distance": 2382.2
+        },
+        {
+            "from": "Zagreb",
+            "to": "Prague",
+            "distance": 694.43
+        },
+        {
+            "from": "Zagreb",
+            "to": "Copenhagen",
+            "distance": 1469.94
+        },
+        {
+            "from": "Zagreb",
+            "to": "Tallinn",
+            "distance": 2035.98
+        },
+        {
+            "from": "Zagreb",
+            "to": "Torshavn",
+            "distance": 2965.71
+        },
+        {
+            "from": "Zagreb",
+            "to": "Helsinki",
+            "distance": 2122.83
+        },
+        {
+            "from": "Zagreb",
+            "to": "Paris",
+            "distance": 1388.24
+        },
+        {
+            "from": "Zagreb",
+            "to": "Tbilisi",
+            "distance": 2981.59
+        },
+        {
+            "from": "Zagreb",
+            "to": "Berlin",
+            "distance": 1071.28
+        },
+        {
+            "from": "Zagreb",
+            "to": "Gibraltar",
+            "distance": 2681.85
+        },
+        {
+            "from": "Zagreb",
+            "to": "Athens",
+            "distance": 1487.37
+        },
+        {
+            "from": "Zagreb",
+            "to": "Vatican City",
+            "distance": 891.5
+        },
+        {
+            "from": "Zagreb",
+            "to": "Budapest",
+            "distance": 344.62
+        },
+        {
+            "from": "Zagreb",
+            "to": "Reykjavik",
+            "distance": 4041.58
+        },
+        {
+            "from": "Zagreb",
+            "to": "Dublin",
+            "distance": 2249.57
+        },
+        {
+            "from": "Zagreb",
+            "to": "Rome",
+            "distance": 885.45
+        },
+        {
+            "from": "Zagreb",
+            "to": "Riga",
+            "distance": 1726.43
+        },
+        {
+            "from": "Zagreb",
+            "to": "Vaduz",
+            "distance": 783.08
+        },
+        {
+            "from": "Zagreb",
+            "to": "Vilnius",
+            "distance": 1529.07
+        },
+        {
+            "from": "Zagreb",
+            "to": "Luxembourg",
+            "distance": 1111.24
+        },
+        {
+            "from": "Zagreb",
+            "to": "Skopje",
+            "distance": 824.1
+        },
+        {
+            "from": "Zagreb",
+            "to": "Valletta",
+            "distance": 1904.75
+        },
+        {
+            "from": "Zagreb",
+            "to": "Chisinau",
+            "distance": 1427.06
+        },
+        {
+            "from": "Zagreb",
+            "to": "Podgorica",
+            "distance": 713.68
+        },
+        {
+            "from": "Zagreb",
+            "to": "Amsterdam",
+            "distance": 1324.15
+        },
+        {
+            "from": "Zagreb",
+            "to": "Oslo",
+            "distance": 2064.13
+        },
+        {
+            "from": "Zagreb",
+            "to": "Warsaw",
+            "distance": 1044.35
+        },
+        {
+            "from": "Zagreb",
+            "to": "Lisbon",
+            "distance": 2746.81
+        },
+        {
+            "from": "Zagreb",
+            "to": "Bucharest",
+            "distance": 982.7
+        },
+        {
+            "from": "Zagreb",
+            "to": "Moscow",
+            "distance": 2313.33
+        },
+        {
+            "from": "Zagreb",
+            "to": "San Marino",
+            "distance": 637.02
+        },
+        {
+            "from": "Zagreb",
+            "to": "Belgrade",
+            "distance": 393.06
+        },
+        {
+            "from": "Zagreb",
+            "to": "Bratislava",
+            "distance": 387.77
+        },
+        {
+            "from": "Zagreb",
+            "to": "Ljubljana",
+            "distance": 137.51
+        },
+        {
+            "from": "Zagreb",
+            "to": "Madrid",
+            "distance": 2193.53
+        },
+        {
+            "from": "Zagreb",
+            "to": "Stockholm",
+            "distance": 2114.46
+        },
+        {
+            "from": "Zagreb",
+            "to": "Bern",
+            "distance": 973.58
+        },
+        {
+            "from": "Zagreb",
+            "to": "Ankara",
+            "distance": 1791.73
+        },
+        {
+            "from": "Zagreb",
+            "to": "Kyiv",
+            "distance": 1481.65
+        },
+        {
+            "from": "Zagreb",
+            "to": "London",
+            "distance": 1659.79
+        },
+        {
+            "from": "Nicosia",
+            "to": "Prague",
+            "distance": 2872.99
+        },
+        {
+            "from": "Nicosia",
+            "to": "Copenhagen",
+            "distance": 3655.3
+        },
+        {
+            "from": "Nicosia",
+            "to": "Tallinn",
+            "distance": 4209.83
+        },
+        {
+            "from": "Nicosia",
+            "to": "Torshavn",
+            "distance": 5199.05
+        },
+        {
+            "from": "Nicosia",
+            "to": "Helsinki",
+            "distance": 4296.68
+        },
+        {
+            "from": "Nicosia",
+            "to": "Paris",
+            "distance": 3758.75
+        },
+        {
+            "from": "Nicosia",
+            "to": "Tbilisi",
+            "distance": 1705.62
+        },
+        {
+            "from": "Nicosia",
+            "to": "Berlin",
+            "distance": 3221.4
+        },
+        {
+            "from": "Nicosia",
+            "to": "Gibraltar",
+            "distance": 5052.35
+        },
+        {
+            "from": "Nicosia",
+            "to": "Athens",
+            "distance": 2121.3
+        },
+        {
+            "from": "Nicosia",
+            "to": "Vatican City",
+            "distance": 3262.0
+        },
+        {
+            "from": "Nicosia",
+            "to": "Budapest",
+            "distance": 2355.79
+        },
+        {
+            "from": "Nicosia",
+            "to": "Reykjavik",
+            "distance": 6274.91
+        },
+        {
+            "from": "Nicosia",
+            "to": "Dublin",
+            "distance": 4668.88
+        },
+        {
+            "from": "Nicosia",
+            "to": "Rome",
+            "distance": 3255.95
+        },
+        {
+            "from": "Nicosia",
+            "to": "Riga",
+            "distance": 3900.28
+        },
+        {
+            "from": "Nicosia",
+            "to": "Vaduz",
+            "distance": 3153.58
+        },
+        {
+            "from": "Nicosia",
+            "to": "Vilnius",
+            "distance": 2921.23
+        },
+        {
+            "from": "Nicosia",
+            "to": "Luxembourg",
+            "distance": 3541.85
+        },
+        {
+            "from": "Nicosia",
+            "to": "Skopje",
+            "distance": 1837.27
+        },
+        {
+            "from": "Nicosia",
+            "to": "Valletta",
+            "distance": 3001.58
+        },
+        {
+            "from": "Nicosia",
+            "to": "Chisinau",
+            "distance": 1855.67
+        },
+        {
+            "from": "Nicosia",
+            "to": "Podgorica",
+            "distance": 2182.14
+        },
+        {
+            "from": "Nicosia",
+            "to": "Amsterdam",
+            "distance": 3743.46
+        },
+        {
+            "from": "Nicosia",
+            "to": "Oslo",
+            "distance": 4249.49
+        },
+        {
+            "from": "Nicosia",
+            "to": "Warsaw",
+            "distance": 3218.2
+        },
+        {
+            "from": "Nicosia",
+            "to": "Lisbon",
+            "distance": 5117.31
+        },
+        {
+            "from": "Nicosia",
+            "to": "Bucharest",
+            "distance": 1664.97
+        },
+        {
+            "from": "Nicosia",
+            "to": "Moscow",
+            "distance": 3018.12
+        },
+        {
+            "from": "Nicosia",
+            "to": "San Marino",
+            "distance": 3007.52
+        },
+        {
+            "from": "Nicosia",
+            "to": "Belgrade",
+            "distance": 1981.19
+        },
+        {
+            "from": "Nicosia",
+            "to": "Bratislava",
+            "distance": 2549.18
+        },
+        {
+            "from": "Nicosia",
+            "to": "Ljubljana",
+            "distance": 2508.01
+        },
+        {
+            "from": "Nicosia",
+            "to": "Madrid",
+            "distance": 4564.04
+        },
+        {
+            "from": "Nicosia",
+            "to": "Stockholm",
+            "distance": 4299.83
+        },
+        {
+            "from": "Nicosia",
+            "to": "Bern",
+            "distance": 3344.08
+        },
+        {
+            "from": "Nicosia",
+            "to": "Ankara",
+            "distance": 751.6
+        },
+        {
+            "from": "Nicosia",
+            "to": "Kyiv",
+            "distance": 2155.69
+        },
+        {
+            "from": "Nicosia",
+            "to": "London",
+            "distance": 4079.09
+        },
+        {
+            "from": "Prague",
+            "to": "Copenhagen",
+            "distance": 783.2
+        },
+        {
+            "from": "Prague",
+            "to": "Tallinn",
+            "distance": 1644.35
+        },
+        {
+            "from": "Prague",
+            "to": "Torshavn",
+            "distance": 2326.94
+        },
+        {
+            "from": "Prague",
+            "to": "Helsinki",
+            "distance": 1731.2
+        },
+        {
+            "from": "Prague",
+            "to": "Paris",
+            "distance": 1030.31
+        },
+        {
+            "from": "Prague",
+            "to": "Tbilisi",
+            "distance": 3483.69
+        },
+        {
+            "from": "Prague",
+            "to": "Berlin",
+            "distance": 349.29
+        },
+        {
+            "from": "Prague",
+            "to": "Gibraltar",
+            "distance": 2802.26
+        },
+        {
+            "from": "Prague",
+            "to": "Athens",
+            "distance": 1989.47
+        },
+        {
+            "from": "Prague",
+            "to": "Vatican City",
+            "distance": 1304.97
+        },
+        {
+            "from": "Prague",
+            "to": "Budapest",
+            "distance": 524.78
+        },
+        {
+            "from": "Prague",
+            "to": "Reykjavik",
+            "distance": 3402.81
+        },
+        {
+            "from": "Prague",
+            "to": "Dublin",
+            "distance": 1866.34
+        },
+        {
+            "from": "Prague",
+            "to": "Rome",
+            "distance": 1298.92
+        },
+        {
+            "from": "Prague",
+            "to": "Riga",
+            "distance": 1334.8
+        },
+        {
+            "from": "Prague",
+            "to": "Vaduz",
+            "distance": 612.81
+        },
+        {
+            "from": "Prague",
+            "to": "Vilnius",
+            "distance": 1137.44
+        },
+        {
+            "from": "Prague",
+            "to": "Luxembourg",
+            "distance": 738.96
+        },
+        {
+            "from": "Prague",
+            "to": "Skopje",
+            "distance": 1326.2
+        },
+        {
+            "from": "Prague",
+            "to": "Valletta",
+            "distance": 2318.22
+        },
+        {
+            "from": "Prague",
+            "to": "Chisinau",
+            "distance": 1455.76
+        },
+        {
+            "from": "Prague",
+            "to": "Podgorica",
+            "distance": 1391.86
+        },
+        {
+            "from": "Prague",
+            "to": "Amsterdam",
+            "distance": 876.72
+        },
+        {
+            "from": "Prague",
+            "to": "Oslo",
+            "distance": 1377.39
+        },
+        {
+            "from": "Prague",
+            "to": "Warsaw",
+            "distance": 677.29
+        },
+        {
+            "from": "Prague",
+            "to": "Lisbon",
+            "distance": 2701.99
+        },
+        {
+            "from": "Prague",
+            "to": "Bucharest",
+            "distance": 1353.61
+        },
+        {
+            "from": "Prague",
+            "to": "Moscow",
+            "distance": 1921.7
+        },
+        {
+            "from": "Prague",
+            "to": "San Marino",
+            "distance": 1069.71
+        },
+        {
+            "from": "Prague",
+            "to": "Belgrade",
+            "distance": 895.15
+        },
+        {
+            "from": "Prague",
+            "to": "Bratislava",
+            "distance": 328.44
+        },
+        {
+            "from": "Prague",
+            "to": "Ljubljana",
+            "distance": 707.05
+        },
+        {
+            "from": "Prague",
+            "to": "Madrid",
+            "distance": 2241.85
+        },
+        {
+            "from": "Prague",
+            "to": "Stockholm",
+            "distance": 1427.72
+        },
+        {
+            "from": "Prague",
+            "to": "Bern",
+            "distance": 807.78
+        },
+        {
+            "from": "Prague",
+            "to": "Ankara",
+            "distance": 2293.82
+        },
+        {
+            "from": "Prague",
+            "to": "Kyiv",
+            "distance": 1395.76
+        },
+        {
+            "from": "Prague",
+            "to": "London",
+            "distance": 1276.56
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Tallinn",
+            "distance": 1078.11
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Torshavn",
+            "distance": 1544.4
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Helsinki",
+            "distance": 1135.91
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Paris",
+            "distance": 1221.8
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Tbilisi",
+            "distance": 3609.36
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Berlin",
+            "distance": 433.13
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Gibraltar",
+            "distance": 3140.7
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Athens",
+            "distance": 2770.89
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Vatican City",
+            "distance": 1907.14
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Budapest",
+            "distance": 1306.2
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Reykjavik",
+            "distance": 2620.27
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Dublin",
+            "distance": 1846.92
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Rome",
+            "distance": 1901.09
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Riga",
+            "distance": 907.25
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Vaduz",
+            "distance": 1181.05
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Vilnius",
+            "distance": 1471.43
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Luxembourg",
+            "distance": 917.62
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Skopje",
+            "distance": 2107.62
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Valletta",
+            "distance": 2920.38
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Chisinau",
+            "distance": 1953.65
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Podgorica",
+            "distance": 2167.92
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Amsterdam",
+            "distance": 789.81
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Oslo",
+            "distance": 606.29
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Warsaw",
+            "distance": 1011.29
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Lisbon",
+            "distance": 2947.76
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Bucharest",
+            "distance": 2135.03
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Moscow",
+            "distance": 2255.69
+        },
+        {
+            "from": "Copenhagen",
+            "to": "San Marino",
+            "distance": 1671.87
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Belgrade",
+            "distance": 1676.57
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Bratislava",
+            "distance": 1109.86
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Ljubljana",
+            "distance": 1392.51
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Madrid",
+            "distance": 2487.62
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Stockholm",
+            "distance": 656.63
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Bern",
+            "distance": 1234.09
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Ankara",
+            "distance": 3075.24
+        },
+        {
+            "from": "Copenhagen",
+            "to": "Kyiv",
+            "distance": 1776.87
+        },
+        {
+            "from": "Copenhagen",
+            "to": "London",
+            "distance": 1257.14
+        },
+        {
+            "from": "Tallinn",
+            "to": "Torshavn",
+            "distance": 2210.72
+        },
+        {
+            "from": "Tallinn",
+            "to": "Helsinki",
+            "distance": 87.05
+        },
+        {
+            "from": "Tallinn",
+            "to": "Paris",
+            "distance": 2571.57
+        },
+        {
+            "from": "Tallinn",
+            "to": "Tbilisi",
+            "distance": 3012.56
+        },
+        {
+            "from": "Tallinn",
+            "to": "Berlin",
+            "distance": 1552.39
+        },
+        {
+            "from": "Tallinn",
+            "to": "Gibraltar",
+            "distance": 4419.32
+        },
+        {
+            "from": "Tallinn",
+            "to": "Athens",
+            "distance": 3340.13
+        },
+        {
+            "from": "Tallinn",
+            "to": "Vatican City",
+            "distance": 2805.56
+        },
+        {
+            "from": "Tallinn",
+            "to": "Budapest",
+            "distance": 1875.44
+        },
+        {
+            "from": "Tallinn",
+            "to": "Reykjavik",
+            "distance": 3286.59
+        },
+        {
+            "from": "Tallinn",
+            "to": "Dublin",
+            "distance": 3208.8
+        },
+        {
+            "from": "Tallinn",
+            "to": "Rome",
+            "distance": 2799.51
+        },
+        {
+            "from": "Tallinn",
+            "to": "Riga",
+            "distance": 311.44
+        },
+        {
+            "from": "Tallinn",
+            "to": "Vaduz",
+            "distance": 2248.52
+        },
+        {
+            "from": "Tallinn",
+            "to": "Vilnius",
+            "distance": 598.71
+        },
+        {
+            "from": "Tallinn",
+            "to": "Luxembourg",
+            "distance": 2277.96
+        },
+        {
+            "from": "Tallinn",
+            "to": "Skopje",
+            "distance": 2676.86
+        },
+        {
+            "from": "Tallinn",
+            "to": "Valletta",
+            "distance": 3818.81
+        },
+        {
+            "from": "Tallinn",
+            "to": "Chisinau",
+            "distance": 1820.24
+        },
+        {
+            "from": "Tallinn",
+            "to": "Podgorica",
+            "distance": 2747.07
+        },
+        {
+            "from": "Tallinn",
+            "to": "Amsterdam",
+            "distance": 2172.3
+        },
+        {
+            "from": "Tallinn",
+            "to": "Oslo",
+            "distance": 938.76
+        },
+        {
+            "from": "Tallinn",
+            "to": "Warsaw",
+            "distance": 989.99
+        },
+        {
+            "from": "Tallinn",
+            "to": "Lisbon",
+            "distance": 4362.18
+        },
+        {
+            "from": "Tallinn",
+            "to": "Bucharest",
+            "distance": 2248.31
+        },
+        {
+            "from": "Tallinn",
+            "to": "Moscow",
+            "distance": 1039.64
+        },
+        {
+            "from": "Tallinn",
+            "to": "San Marino",
+            "distance": 2551.08
+        },
+        {
+            "from": "Tallinn",
+            "to": "Belgrade",
+            "distance": 2245.82
+        },
+        {
+            "from": "Tallinn",
+            "to": "Bratislava",
+            "distance": 1679.1
+        },
+        {
+            "from": "Tallinn",
+            "to": "Ljubljana",
+            "distance": 2062.26
+        },
+        {
+            "from": "Tallinn",
+            "to": "Madrid",
+            "distance": 3902.05
+        },
+        {
+            "from": "Tallinn",
+            "to": "Stockholm",
+            "distance": 426.39
+        },
+        {
+            "from": "Tallinn",
+            "to": "Bern",
+            "distance": 2424.84
+        },
+        {
+            "from": "Tallinn",
+            "to": "Ankara",
+            "distance": 2905.26
+        },
+        {
+            "from": "Tallinn",
+            "to": "Kyiv",
+            "distance": 1356.07
+        },
+        {
+            "from": "Tallinn",
+            "to": "London",
+            "distance": 2619.02
+        },
+        {
+            "from": "Torshavn",
+            "to": "Helsinki",
+            "distance": 2266.85
+        },
+        {
+            "from": "Torshavn",
+            "to": "Paris",
+            "distance": 2573.04
+        },
+        {
+            "from": "Torshavn",
+            "to": "Tbilisi",
+            "distance": 5127.0
+        },
+        {
+            "from": "Torshavn",
+            "to": "Berlin",
+            "distance": 1959.23
+        },
+        {
+            "from": "Torshavn",
+            "to": "Gibraltar",
+            "distance": 4491.94
+        },
+        {
+            "from": "Torshavn",
+            "to": "Athens",
+            "distance": 4296.98
+        },
+        {
+            "from": "Torshavn",
+            "to": "Vatican City",
+            "distance": 3353.23
+        },
+        {
+            "from": "Torshavn",
+            "to": "Budapest",
+            "distance": 2832.29
+        },
+        {
+            "from": "Torshavn",
+            "to": "Reykjavik",
+            "distance": 3425.71
+        },
+        {
+            "from": "Torshavn",
+            "to": "Dublin",
+            "distance": 3198.16
+        },
+        {
+            "from": "Torshavn",
+            "to": "Rome",
+            "distance": 3347.18
+        },
+        {
+            "from": "Torshavn",
+            "to": "Riga",
+            "distance": 3186.43
+        },
+        {
+            "from": "Torshavn",
+            "to": "Vaduz",
+            "distance": 2543.19
+        },
+        {
+            "from": "Torshavn",
+            "to": "Vilnius",
+            "distance": 2989.06
+        },
+        {
+            "from": "Torshavn",
+            "to": "Luxembourg",
+            "distance": 2268.87
+        },
+        {
+            "from": "Torshavn",
+            "to": "Skopje",
+            "distance": 3633.71
+        },
+        {
+            "from": "Torshavn",
+            "to": "Valletta",
+            "distance": 4366.47
+        },
+        {
+            "from": "Torshavn",
+            "to": "Chisinau",
+            "distance": 3479.75
+        },
+        {
+            "from": "Torshavn",
+            "to": "Podgorica",
+            "distance": 3662.81
+        },
+        {
+            "from": "Torshavn",
+            "to": "Amsterdam",
+            "distance": 2141.05
+        },
+        {
+            "from": "Torshavn",
+            "to": "Oslo",
+            "distance": 1474.76
+        },
+        {
+            "from": "Torshavn",
+            "to": "Warsaw",
+            "distance": 2528.92
+        },
+        {
+            "from": "Torshavn",
+            "to": "Lisbon",
+            "distance": 4299.0
+        },
+        {
+            "from": "Torshavn",
+            "to": "Bucharest",
+            "distance": 3661.12
+        },
+        {
+            "from": "Torshavn",
+            "to": "Moscow",
+            "distance": 3773.32
+        },
+        {
+            "from": "Torshavn",
+            "to": "San Marino",
+            "distance": 3117.96
+        },
+        {
+            "from": "Torshavn",
+            "to": "Belgrade",
+            "distance": 3202.67
+        },
+        {
+            "from": "Torshavn",
+            "to": "Bratislava",
+            "distance": 2635.95
+        },
+        {
+            "from": "Torshavn",
+            "to": "Ljubljana",
+            "distance": 2887.4
+        },
+        {
+            "from": "Torshavn",
+            "to": "Madrid",
+            "distance": 3838.86
+        },
+        {
+            "from": "Torshavn",
+            "to": "Stockholm",
+            "distance": 1787.57
+        },
+        {
+            "from": "Torshavn",
+            "to": "Bern",
+            "distance": 2596.23
+        },
+        {
+            "from": "Torshavn",
+            "to": "Ankara",
+            "distance": 4601.33
+        },
+        {
+            "from": "Torshavn",
+            "to": "Kyiv",
+            "distance": 3294.5
+        },
+        {
+            "from": "Torshavn",
+            "to": "London",
+            "distance": 2608.38
+        },
+        {
+            "from": "Helsinki",
+            "to": "Paris",
+            "distance": 2661.15
+        },
+        {
+            "from": "Helsinki",
+            "to": "Tbilisi",
+            "distance": 3094.96
+        },
+        {
+            "from": "Helsinki",
+            "to": "Berlin",
+            "distance": 1641.97
+        },
+        {
+            "from": "Helsinki",
+            "to": "Gibraltar",
+            "distance": 4508.89
+        },
+        {
+            "from": "Helsinki",
+            "to": "Athens",
+            "distance": 3429.71
+        },
+        {
+            "from": "Helsinki",
+            "to": "Vatican City",
+            "distance": 2895.13
+        },
+        {
+            "from": "Helsinki",
+            "to": "Budapest",
+            "distance": 1965.02
+        },
+        {
+            "from": "Helsinki",
+            "to": "Reykjavik",
+            "distance": 3339.58
+        },
+        {
+            "from": "Helsinki",
+            "to": "Dublin",
+            "distance": 3298.37
+        },
+        {
+            "from": "Helsinki",
+            "to": "Rome",
+            "distance": 2889.08
+        },
+        {
+            "from": "Helsinki",
+            "to": "Riga",
+            "distance": 401.01
+        },
+        {
+            "from": "Helsinki",
+            "to": "Vaduz",
+            "distance": 2338.1
+        },
+        {
+            "from": "Helsinki",
+            "to": "Vilnius",
+            "distance": 688.28
+        },
+        {
+            "from": "Helsinki",
+            "to": "Luxembourg",
+            "distance": 2367.53
+        },
+        {
+            "from": "Helsinki",
+            "to": "Skopje",
+            "distance": 2766.44
+        },
+        {
+            "from": "Helsinki",
+            "to": "Valletta",
+            "distance": 3908.38
+        },
+        {
+            "from": "Helsinki",
+            "to": "Chisinau",
+            "distance": 1909.82
+        },
+        {
+            "from": "Helsinki",
+            "to": "Podgorica",
+            "distance": 2836.64
+        },
+        {
+            "from": "Helsinki",
+            "to": "Amsterdam",
+            "distance": 2261.88
+        },
+        {
+            "from": "Helsinki",
+            "to": "Oslo",
+            "distance": 991.76
+        },
+        {
+            "from": "Helsinki",
+            "to": "Warsaw",
+            "distance": 1079.56
+        },
+        {
+            "from": "Helsinki",
+            "to": "Lisbon",
+            "distance": 4451.76
+        },
+        {
+            "from": "Helsinki",
+            "to": "Bucharest",
+            "distance": 2337.88
+        },
+        {
+            "from": "Helsinki",
+            "to": "Moscow",
+            "distance": 1107.17
+        },
+        {
+            "from": "Helsinki",
+            "to": "San Marino",
+            "distance": 2640.65
+        },
+        {
+            "from": "Helsinki",
+            "to": "Belgrade",
+            "distance": 2335.39
+        },
+        {
+            "from": "Helsinki",
+            "to": "Bratislava",
+            "distance": 1768.68
+        },
+        {
+            "from": "Helsinki",
+            "to": "Ljubljana",
+            "distance": 2151.84
+        },
+        {
+            "from": "Helsinki",
+            "to": "Madrid",
+            "distance": 3991.62
+        },
+        {
+            "from": "Helsinki",
+            "to": "Stockholm",
+            "distance": 479.39
+        },
+        {
+            "from": "Helsinki",
+            "to": "Bern",
+            "distance": 2514.41
+        },
+        {
+            "from": "Helsinki",
+            "to": "Ankara",
+            "distance": 2994.83
+        },
+        {
+            "from": "Helsinki",
+            "to": "Kyiv",
+            "distance": 1445.64
+        },
+        {
+            "from": "Helsinki",
+            "to": "London",
+            "distance": 2708.59
+        },
+        {
+            "from": "Paris",
+            "to": "Tbilisi",
+            "distance": 4443.34
+        },
+        {
+            "from": "Paris",
+            "to": "Berlin",
+            "distance": 1054.15
+        },
+        {
+            "from": "Paris",
+            "to": "Gibraltar",
+            "distance": 1928.38
+        },
+        {
+            "from": "Paris",
+            "to": "Athens",
+            "distance": 2949.12
+        },
+        {
+            "from": "Paris",
+            "to": "Vatican City",
+            "distance": 1426.54
+        },
+        {
+            "from": "Paris",
+            "to": "Budapest",
+            "distance": 1484.43
+        },
+        {
+            "from": "Paris",
+            "to": "Reykjavik",
+            "distance": 3649.0
+        },
+        {
+            "from": "Paris",
+            "to": "Dublin",
+            "distance": 1061.26
+        },
+        {
+            "from": "Paris",
+            "to": "Rome",
+            "distance": 1420.49
+        },
+        {
+            "from": "Paris",
+            "to": "Riga",
+            "distance": 2248.8
+        },
+        {
+            "from": "Paris",
+            "to": "Vaduz",
+            "distance": 763.54
+        },
+        {
+            "from": "Paris",
+            "to": "Vilnius",
+            "distance": 2051.44
+        },
+        {
+            "from": "Paris",
+            "to": "Luxembourg",
+            "distance": 406.89
+        },
+        {
+            "from": "Paris",
+            "to": "Skopje",
+            "distance": 2285.85
+        },
+        {
+            "from": "Paris",
+            "to": "Valletta",
+            "distance": 2439.78
+        },
+        {
+            "from": "Paris",
+            "to": "Chisinau",
+            "distance": 2461.06
+        },
+        {
+            "from": "Paris",
+            "to": "Podgorica",
+            "distance": 2013.62
+        },
+        {
+            "from": "Paris",
+            "to": "Amsterdam",
+            "distance": 508.45
+        },
+        {
+            "from": "Paris",
+            "to": "Oslo",
+            "distance": 1698.05
+        },
+        {
+            "from": "Paris",
+            "to": "Warsaw",
+            "distance": 1591.3
+        },
+        {
+            "from": "Paris",
+            "to": "Lisbon",
+            "distance": 1735.44
+        },
+        {
+            "from": "Paris",
+            "to": "Bucharest",
+            "distance": 2313.26
+        },
+        {
+            "from": "Paris",
+            "to": "Moscow",
+            "distance": 2835.7
+        },
+        {
+            "from": "Paris",
+            "to": "San Marino",
+            "distance": 1191.27
+        },
+        {
+            "from": "Paris",
+            "to": "Belgrade",
+            "distance": 1854.81
+        },
+        {
+            "from": "Paris",
+            "to": "Bratislava",
+            "distance": 1321.78
+        },
+        {
+            "from": "Paris",
+            "to": "Ljubljana",
+            "distance": 1241.32
+        },
+        {
+            "from": "Paris",
+            "to": "Madrid",
+            "distance": 1275.3
+        },
+        {
+            "from": "Paris",
+            "to": "Stockholm",
+            "distance": 1865.86
+        },
+        {
+            "from": "Paris",
+            "to": "Bern",
+            "distance": 569.05
+        },
+        {
+            "from": "Paris",
+            "to": "Ankara",
+            "distance": 3253.47
+        },
+        {
+            "from": "Paris",
+            "to": "Kyiv",
+            "distance": 2401.06
+        },
+        {
+            "from": "Paris",
+            "to": "London",
+            "distance": 471.48
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Berlin",
+            "distance": 3167.13
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Gibraltar",
+            "distance": 5684.5
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Athens",
+            "distance": 2753.45
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Vatican City",
+            "distance": 3894.15
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Budapest",
+            "distance": 2987.93
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Reykjavik",
+            "distance": 6197.97
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Dublin",
+            "distance": 4823.53
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Rome",
+            "distance": 3888.1
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Riga",
+            "distance": 2892.58
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Vaduz",
+            "distance": 3785.73
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Vilnius",
+            "distance": 2916.31
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Luxembourg",
+            "distance": 4174.0
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Skopje",
+            "distance": 2469.42
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Valletta",
+            "distance": 3633.73
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Chisinau",
+            "distance": 1801.23
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Podgorica",
+            "distance": 2814.29
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Amsterdam",
+            "distance": 3787.04
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Oslo",
+            "distance": 4021.23
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Warsaw",
+            "distance": 2618.19
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Lisbon",
+            "distance": 5749.46
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Bucharest",
+            "distance": 2297.11
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Moscow",
+            "distance": 1980.3
+        },
+        {
+            "from": "Tbilisi",
+            "to": "San Marino",
+            "distance": 3639.67
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Belgrade",
+            "distance": 2613.33
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Bratislava",
+            "distance": 3181.33
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Ljubljana",
+            "distance": 3140.16
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Madrid",
+            "distance": 5196.18
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Stockholm",
+            "distance": 3412.28
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Bern",
+            "distance": 3976.23
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Ankara",
+            "distance": 1410.53
+        },
+        {
+            "from": "Tbilisi",
+            "to": "Kyiv",
+            "distance": 1831.57
+        },
+        {
+            "from": "Tbilisi",
+            "to": "London",
+            "distance": 4233.75
+        },
+        {
+            "from": "Berlin",
+            "to": "Gibraltar",
+            "distance": 2951.56
+        },
+        {
+            "from": "Berlin",
+            "to": "Athens",
+            "distance": 2337.05
+        },
+        {
+            "from": "Berlin",
+            "to": "Vatican City",
+            "distance": 1507.37
+        },
+        {
+            "from": "Berlin",
+            "to": "Budapest",
+            "distance": 872.36
+        },
+        {
+            "from": "Berlin",
+            "to": "Reykjavik",
+            "distance": 3034.89
+        },
+        {
+            "from": "Berlin",
+            "to": "Dublin",
+            "distance": 1691.82
+        },
+        {
+            "from": "Berlin",
+            "to": "Rome",
+            "distance": 1501.32
+        },
+        {
+            "from": "Berlin",
+            "to": "Riga",
+            "distance": 1231.61
+        },
+        {
+            "from": "Berlin",
+            "to": "Vaduz",
+            "distance": 780.76
+        },
+        {
+            "from": "Berlin",
+            "to": "Vilnius",
+            "distance": 1034.25
+        },
+        {
+            "from": "Berlin",
+            "to": "Luxembourg",
+            "distance": 771.04
+        },
+        {
+            "from": "Berlin",
+            "to": "Skopje",
+            "distance": 1673.78
+        },
+        {
+            "from": "Berlin",
+            "to": "Valletta",
+            "distance": 2520.62
+        },
+        {
+            "from": "Berlin",
+            "to": "Chisinau",
+            "distance": 1519.81
+        },
+        {
+            "from": "Berlin",
+            "to": "Podgorica",
+            "distance": 1739.44
+        },
+        {
+            "from": "Berlin",
+            "to": "Amsterdam",
+            "distance": 655.33
+        },
+        {
+            "from": "Berlin",
+            "to": "Oslo",
+            "distance": 1027.1
+        },
+        {
+            "from": "Berlin",
+            "to": "Warsaw",
+            "distance": 574.11
+        },
+        {
+            "from": "Berlin",
+            "to": "Lisbon",
+            "distance": 2780.55
+        },
+        {
+            "from": "Berlin",
+            "to": "Bucharest",
+            "distance": 1701.19
+        },
+        {
+            "from": "Berlin",
+            "to": "Moscow",
+            "distance": 1818.51
+        },
+        {
+            "from": "Berlin",
+            "to": "San Marino",
+            "distance": 1272.11
+        },
+        {
+            "from": "Berlin",
+            "to": "Belgrade",
+            "distance": 1242.74
+        },
+        {
+            "from": "Berlin",
+            "to": "Bratislava",
+            "distance": 676.02
+        },
+        {
+            "from": "Berlin",
+            "to": "Ljubljana",
+            "distance": 992.75
+        },
+        {
+            "from": "Berlin",
+            "to": "Madrid",
+            "distance": 2320.41
+        },
+        {
+            "from": "Berlin",
+            "to": "Stockholm",
+            "distance": 1077.43
+        },
+        {
+            "from": "Berlin",
+            "to": "Bern",
+            "distance": 957.07
+        },
+        {
+            "from": "Berlin",
+            "to": "Ankara",
+            "distance": 2641.4
+        },
+        {
+            "from": "Berlin",
+            "to": "Kyiv",
+            "distance": 1339.68
+        },
+        {
+            "from": "Berlin",
+            "to": "London",
+            "distance": 1102.04
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Athens",
+            "distance": 3760.66
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Vatican City",
+            "distance": 2458.44
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Budapest",
+            "distance": 3037.07
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Reykjavik",
+            "distance": 5566.93
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Dublin",
+            "distance": 2970.93
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Rome",
+            "distance": 2476.3
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Riga",
+            "distance": 4126.66
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Vaduz",
+            "distance": 2285.63
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Vilnius",
+            "distance": 3929.3
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Luxembourg",
+            "distance": 2302.76
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Skopje",
+            "distance": 3531.84
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Valletta",
+            "distance": 3495.6
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Chisinau",
+            "distance": 4119.51
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Podgorica",
+            "distance": 3281.67
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Amsterdam",
+            "distance": 2426.38
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Oslo",
+            "distance": 3615.97
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Warsaw",
+            "distance": 3469.15
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Lisbon",
+            "distance": 657.01
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Bucharest",
+            "distance": 3862.25
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Moscow",
+            "distance": 4713.56
+        },
+        {
+            "from": "Gibraltar",
+            "to": "San Marino",
+            "distance": 2377.62
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Belgrade",
+            "distance": 3100.8
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Bratislava",
+            "distance": 3010.98
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Ljubljana",
+            "distance": 2575.28
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Madrid",
+            "distance": 658.81
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Stockholm",
+            "distance": 3783.79
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Bern",
+            "distance": 2057.64
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Ankara",
+            "distance": 4499.46
+        },
+        {
+            "from": "Gibraltar",
+            "to": "Kyiv",
+            "distance": 4223.37
+        },
+        {
+            "from": "Gibraltar",
+            "to": "London",
+            "distance": 2381.15
+        },
+        {
+            "from": "Athens",
+            "to": "Vatican City",
+            "distance": 1318.21
+        },
+        {
+            "from": "Athens",
+            "to": "Budapest",
+            "distance": 1469.49
+        },
+        {
+            "from": "Athens",
+            "to": "Reykjavik",
+            "distance": 5388.61
+        },
+        {
+            "from": "Athens",
+            "to": "Dublin",
+            "distance": 3782.57
+        },
+        {
+            "from": "Athens",
+            "to": "Rome",
+            "distance": 1299.79
+        },
+        {
+            "from": "Athens",
+            "to": "Riga",
+            "distance": 3013.98
+        },
+        {
+            "from": "Athens",
+            "to": "Vaduz",
+            "distance": 2267.28
+        },
+        {
+            "from": "Athens",
+            "to": "Vilnius",
+            "distance": 2816.62
+        },
+        {
+            "from": "Athens",
+            "to": "Luxembourg",
+            "distance": 2655.55
+        },
+        {
+            "from": "Athens",
+            "to": "Skopje",
+            "distance": 695.72
+        },
+        {
+            "from": "Athens",
+            "to": "Valletta",
+            "distance": 1528.09
+        },
+        {
+            "from": "Athens",
+            "to": "Chisinau",
+            "distance": 1617.49
+        },
+        {
+            "from": "Athens",
+            "to": "Podgorica",
+            "distance": 857.05
+        },
+        {
+            "from": "Athens",
+            "to": "Amsterdam",
+            "distance": 2857.15
+        },
+        {
+            "from": "Athens",
+            "to": "Oslo",
+            "distance": 3363.19
+        },
+        {
+            "from": "Athens",
+            "to": "Warsaw",
+            "distance": 2331.9
+        },
+        {
+            "from": "Athens",
+            "to": "Lisbon",
+            "distance": 3798.7
+        },
+        {
+            "from": "Athens",
+            "to": "Bucharest",
+            "distance": 1180.79
+        },
+        {
+            "from": "Athens",
+            "to": "Moscow",
+            "distance": 3280.69
+        },
+        {
+            "from": "Athens",
+            "to": "San Marino",
+            "distance": 1416.12
+        },
+        {
+            "from": "Athens",
+            "to": "Belgrade",
+            "distance": 1094.88
+        },
+        {
+            "from": "Athens",
+            "to": "Bratislava",
+            "distance": 1662.88
+        },
+        {
+            "from": "Athens",
+            "to": "Ljubljana",
+            "distance": 1621.71
+        },
+        {
+            "from": "Athens",
+            "to": "Madrid",
+            "distance": 3245.42
+        },
+        {
+            "from": "Athens",
+            "to": "Stockholm",
+            "distance": 3413.52
+        },
+        {
+            "from": "Athens",
+            "to": "Bern",
+            "distance": 2457.78
+        },
+        {
+            "from": "Athens",
+            "to": "Ankara",
+            "distance": 1544.5
+        },
+        {
+            "from": "Athens",
+            "to": "Kyiv",
+            "distance": 2097.69
+        },
+        {
+            "from": "Athens",
+            "to": "London",
+            "distance": 3192.79
+        },
+        {
+            "from": "Vatican City",
+            "to": "Budapest",
+            "distance": 1218.15
+        },
+        {
+            "from": "Vatican City",
+            "to": "Reykjavik",
+            "distance": 4427.01
+        },
+        {
+            "from": "Vatican City",
+            "to": "Dublin",
+            "distance": 2469.24
+        },
+        {
+            "from": "Vatican City",
+            "to": "Rome",
+            "distance": 6.14
+        },
+        {
+            "from": "Vatican City",
+            "to": "Riga",
+            "distance": 2480.3
+        },
+        {
+            "from": "Vatican City",
+            "to": "Vaduz",
+            "distance": 839.65
+        },
+        {
+            "from": "Vatican City",
+            "to": "Vilnius",
+            "distance": 2282.94
+        },
+        {
+            "from": "Vatican City",
+            "to": "Luxembourg",
+            "distance": 1308.49
+        },
+        {
+            "from": "Vatican City",
+            "to": "Skopje",
+            "distance": 1004.42
+        },
+        {
+            "from": "Vatican City",
+            "to": "Valletta",
+            "distance": 1050.53
+        },
+        {
+            "from": "Vatican City",
+            "to": "Chisinau",
+            "distance": 2300.58
+        },
+        {
+            "from": "Vatican City",
+            "to": "Podgorica",
+            "distance": 709.18
+        },
+        {
+            "from": "Vatican City",
+            "to": "Amsterdam",
+            "distance": 1657.41
+        },
+        {
+            "from": "Vatican City",
+            "to": "Oslo",
+            "distance": 2498.9
+        },
+        {
+            "from": "Vatican City",
+            "to": "Warsaw",
+            "distance": 1798.23
+        },
+        {
+            "from": "Vatican City",
+            "to": "Lisbon",
+            "distance": 2495.6
+        },
+        {
+            "from": "Vatican City",
+            "to": "Bucharest",
+            "distance": 2043.33
+        },
+        {
+            "from": "Vatican City",
+            "to": "Moscow",
+            "distance": 3067.2
+        },
+        {
+            "from": "Vatican City",
+            "to": "San Marino",
+            "distance": 334.24
+        },
+        {
+            "from": "Vatican City",
+            "to": "Belgrade",
+            "distance": 1281.87
+        },
+        {
+            "from": "Vatican City",
+            "to": "Bratislava",
+            "distance": 1192.06
+        },
+        {
+            "from": "Vatican City",
+            "to": "Ljubljana",
+            "distance": 756.36
+        },
+        {
+            "from": "Vatican City",
+            "to": "Madrid",
+            "distance": 1942.33
+        },
+        {
+            "from": "Vatican City",
+            "to": "Stockholm",
+            "distance": 2549.24
+        },
+        {
+            "from": "Vatican City",
+            "to": "Bern",
+            "distance": 935.09
+        },
+        {
+            "from": "Vatican City",
+            "to": "Ankara",
+            "distance": 2680.54
+        },
+        {
+            "from": "Vatican City",
+            "to": "Kyiv",
+            "distance": 2355.17
+        },
+        {
+            "from": "Vatican City",
+            "to": "London",
+            "distance": 1879.46
+        },
+        {
+            "from": "Budapest",
+            "to": "Reykjavik",
+            "distance": 3926.8
+        },
+        {
+            "from": "Budapest",
+            "to": "Dublin",
+            "distance": 2320.76
+        },
+        {
+            "from": "Budapest",
+            "to": "Rome",
+            "distance": 1213.95
+        },
+        {
+            "from": "Budapest",
+            "to": "Riga",
+            "distance": 1552.17
+        },
+        {
+            "from": "Budapest",
+            "to": "Vaduz",
+            "distance": 921.3
+        },
+        {
+            "from": "Budapest",
+            "to": "Vilnius",
+            "distance": 1354.81
+        },
+        {
+            "from": "Budapest",
+            "to": "Luxembourg",
+            "distance": 1193.74
+        },
+        {
+            "from": "Budapest",
+            "to": "Skopje",
+            "distance": 810.21
+        },
+        {
+            "from": "Budapest",
+            "to": "Valletta",
+            "distance": 2233.25
+        },
+        {
+            "from": "Budapest",
+            "to": "Chisinau",
+            "distance": 965.86
+        },
+        {
+            "from": "Budapest",
+            "to": "Podgorica",
+            "distance": 798.46
+        },
+        {
+            "from": "Budapest",
+            "to": "Amsterdam",
+            "distance": 1395.34
+        },
+        {
+            "from": "Budapest",
+            "to": "Oslo",
+            "distance": 1901.38
+        },
+        {
+            "from": "Budapest",
+            "to": "Warsaw",
+            "distance": 870.09
+        },
+        {
+            "from": "Budapest",
+            "to": "Lisbon",
+            "distance": 3075.31
+        },
+        {
+            "from": "Budapest",
+            "to": "Bucharest",
+            "distance": 837.62
+        },
+        {
+            "from": "Budapest",
+            "to": "Moscow",
+            "distance": 1825.48
+        },
+        {
+            "from": "Budapest",
+            "to": "San Marino",
+            "distance": 965.53
+        },
+        {
+            "from": "Budapest",
+            "to": "Belgrade",
+            "distance": 379.16
+        },
+        {
+            "from": "Budapest",
+            "to": "Bratislava",
+            "distance": 201.07
+        },
+        {
+            "from": "Budapest",
+            "to": "Ljubljana",
+            "distance": 462.98
+        },
+        {
+            "from": "Budapest",
+            "to": "Madrid",
+            "distance": 2522.04
+        },
+        {
+            "from": "Budapest",
+            "to": "Stockholm",
+            "distance": 1951.71
+        },
+        {
+            "from": "Budapest",
+            "to": "Bern",
+            "distance": 1112.27
+        },
+        {
+            "from": "Budapest",
+            "to": "Ankara",
+            "distance": 1777.83
+        },
+        {
+            "from": "Budapest",
+            "to": "Kyiv",
+            "distance": 1116.13
+        },
+        {
+            "from": "Budapest",
+            "to": "London",
+            "distance": 1730.98
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Dublin",
+            "distance": 4274.09
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Rome",
+            "distance": 4423.1
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Riga",
+            "distance": 4262.35
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Vaduz",
+            "distance": 3619.11
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Vilnius",
+            "distance": 4064.99
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Luxembourg",
+            "distance": 3344.79
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Skopje",
+            "distance": 4709.64
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Valletta",
+            "distance": 5442.4
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Chisinau",
+            "distance": 4555.67
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Podgorica",
+            "distance": 4738.74
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Amsterdam",
+            "distance": 3216.98
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Oslo",
+            "distance": 2548.51
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Warsaw",
+            "distance": 3604.85
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Lisbon",
+            "distance": 5374.93
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Bucharest",
+            "distance": 4737.05
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Moscow",
+            "distance": 4849.25
+        },
+        {
+            "from": "Reykjavik",
+            "to": "San Marino",
+            "distance": 4193.89
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Belgrade",
+            "distance": 4278.59
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Bratislava",
+            "distance": 3711.88
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Ljubljana",
+            "distance": 3963.33
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Madrid",
+            "distance": 4914.79
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Stockholm",
+            "distance": 2863.5
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Bern",
+            "distance": 3672.16
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Ankara",
+            "distance": 5677.26
+        },
+        {
+            "from": "Reykjavik",
+            "to": "Kyiv",
+            "distance": 4370.43
+        },
+        {
+            "from": "Reykjavik",
+            "to": "London",
+            "distance": 3684.31
+        },
+        {
+            "from": "Dublin",
+            "to": "Rome",
+            "distance": 2550.63
+        },
+        {
+            "from": "Dublin",
+            "to": "Riga",
+            "distance": 2973.03
+        },
+        {
+            "from": "Dublin",
+            "to": "Vaduz",
+            "distance": 1799.07
+        },
+        {
+            "from": "Dublin",
+            "to": "Vilnius",
+            "distance": 2775.67
+        },
+        {
+            "from": "Dublin",
+            "to": "Luxembourg",
+            "distance": 1243.13
+        },
+        {
+            "from": "Dublin",
+            "to": "Skopje",
+            "distance": 3208.39
+        },
+        {
+            "from": "Dublin",
+            "to": "Valletta",
+            "distance": 3569.92
+        },
+        {
+            "from": "Dublin",
+            "to": "Chisinau",
+            "distance": 3234.37
+        },
+        {
+            "from": "Dublin",
+            "to": "Podgorica",
+            "distance": 3032.55
+        },
+        {
+            "from": "Dublin",
+            "to": "Amsterdam",
+            "distance": 1218.49
+        },
+        {
+            "from": "Dublin",
+            "to": "Oslo",
+            "distance": 2410.09
+        },
+        {
+            "from": "Dublin",
+            "to": "Warsaw",
+            "distance": 2315.52
+        },
+        {
+            "from": "Dublin",
+            "to": "Lisbon",
+            "distance": 2865.6
+        },
+        {
+            "from": "Dublin",
+            "to": "Bucharest",
+            "distance": 3235.81
+        },
+        {
+            "from": "Dublin",
+            "to": "Moscow",
+            "distance": 3559.93
+        },
+        {
+            "from": "Dublin",
+            "to": "San Marino",
+            "distance": 2321.41
+        },
+        {
+            "from": "Dublin",
+            "to": "Belgrade",
+            "distance": 2777.35
+        },
+        {
+            "from": "Dublin",
+            "to": "Bratislava",
+            "distance": 2244.33
+        },
+        {
+            "from": "Dublin",
+            "to": "Ljubljana",
+            "distance": 2223.99
+        },
+        {
+            "from": "Dublin",
+            "to": "Madrid",
+            "distance": 2405.46
+        },
+        {
+            "from": "Dublin",
+            "to": "Stockholm",
+            "distance": 2577.91
+        },
+        {
+            "from": "Dublin",
+            "to": "Bern",
+            "distance": 1659.91
+        },
+        {
+            "from": "Dublin",
+            "to": "Ankara",
+            "distance": 4176.02
+        },
+        {
+            "from": "Dublin",
+            "to": "Kyiv",
+            "distance": 3081.1
+        },
+        {
+            "from": "Dublin",
+            "to": "London",
+            "distance": 686.71
+        },
+        {
+            "from": "Rome",
+            "to": "Riga",
+            "distance": 2476.26
+        },
+        {
+            "from": "Rome",
+            "to": "Vaduz",
+            "distance": 835.61
+        },
+        {
+            "from": "Rome",
+            "to": "Vilnius",
+            "distance": 2278.9
+        },
+        {
+            "from": "Rome",
+            "to": "Luxembourg",
+            "distance": 1304.45
+        },
+        {
+            "from": "Rome",
+            "to": "Skopje",
+            "distance": 999.15
+        },
+        {
+            "from": "Rome",
+            "to": "Valletta",
+            "distance": 1045.26
+        },
+        {
+            "from": "Rome",
+            "to": "Chisinau",
+            "distance": 2296.55
+        },
+        {
+            "from": "Rome",
+            "to": "Podgorica",
+            "distance": 703.91
+        },
+        {
+            "from": "Rome",
+            "to": "Amsterdam",
+            "distance": 1653.38
+        },
+        {
+            "from": "Rome",
+            "to": "Oslo",
+            "distance": 2494.87
+        },
+        {
+            "from": "Rome",
+            "to": "Warsaw",
+            "distance": 1794.19
+        },
+        {
+            "from": "Rome",
+            "to": "Lisbon",
+            "distance": 2515.05
+        },
+        {
+            "from": "Rome",
+            "to": "Bucharest",
+            "distance": 2039.29
+        },
+        {
+            "from": "Rome",
+            "to": "Moscow",
+            "distance": 3063.16
+        },
+        {
+            "from": "Rome",
+            "to": "San Marino",
+            "distance": 330.21
+        },
+        {
+            "from": "Rome",
+            "to": "Belgrade",
+            "distance": 1277.84
+        },
+        {
+            "from": "Rome",
+            "to": "Bratislava",
+            "distance": 1188.02
+        },
+        {
+            "from": "Rome",
+            "to": "Ljubljana",
+            "distance": 752.32
+        },
+        {
+            "from": "Rome",
+            "to": "Madrid",
+            "distance": 1961.77
+        },
+        {
+            "from": "Rome",
+            "to": "Stockholm",
+            "distance": 2545.2
+        },
+        {
+            "from": "Rome",
+            "to": "Bern",
+            "distance": 931.06
+        },
+        {
+            "from": "Rome",
+            "to": "Ankara",
+            "distance": 2676.5
+        },
+        {
+            "from": "Rome",
+            "to": "Kyiv",
+            "distance": 2351.14
+        },
+        {
+            "from": "Rome",
+            "to": "London",
+            "distance": 1875.42
+        },
+        {
+            "from": "Riga",
+            "to": "Vaduz",
+            "distance": 1938.86
+        },
+        {
+            "from": "Riga",
+            "to": "Vilnius",
+            "distance": 289.05
+        },
+        {
+            "from": "Riga",
+            "to": "Luxembourg",
+            "distance": 1968.3
+        },
+        {
+            "from": "Riga",
+            "to": "Skopje",
+            "distance": 2367.2
+        },
+        {
+            "from": "Riga",
+            "to": "Valletta",
+            "distance": 3509.15
+        },
+        {
+            "from": "Riga",
+            "to": "Chisinau",
+            "distance": 1510.58
+        },
+        {
+            "from": "Riga",
+            "to": "Podgorica",
+            "distance": 2437.41
+        },
+        {
+            "from": "Riga",
+            "to": "Amsterdam",
+            "distance": 1862.64
+        },
+        {
+            "from": "Riga",
+            "to": "Oslo",
+            "distance": 1005.59
+        },
+        {
+            "from": "Riga",
+            "to": "Warsaw",
+            "distance": 680.33
+        },
+        {
+            "from": "Riga",
+            "to": "Lisbon",
+            "distance": 4052.53
+        },
+        {
+            "from": "Riga",
+            "to": "Bucharest",
+            "distance": 1938.65
+        },
+        {
+            "from": "Riga",
+            "to": "Moscow",
+            "distance": 921.85
+        },
+        {
+            "from": "Riga",
+            "to": "San Marino",
+            "distance": 2241.42
+        },
+        {
+            "from": "Riga",
+            "to": "Belgrade",
+            "distance": 1936.16
+        },
+        {
+            "from": "Riga",
+            "to": "Bratislava",
+            "distance": 1369.44
+        },
+        {
+            "from": "Riga",
+            "to": "Ljubljana",
+            "distance": 1752.6
+        },
+        {
+            "from": "Riga",
+            "to": "Madrid",
+            "distance": 3592.39
+        },
+        {
+            "from": "Riga",
+            "to": "Stockholm",
+            "distance": 521.6
+        },
+        {
+            "from": "Riga",
+            "to": "Bern",
+            "distance": 2115.18
+        },
+        {
+            "from": "Riga",
+            "to": "Ankara",
+            "distance": 2595.6
+        },
+        {
+            "from": "Riga",
+            "to": "Kyiv",
+            "distance": 1046.41
+        },
+        {
+            "from": "Riga",
+            "to": "London",
+            "distance": 2309.36
+        },
+        {
+            "from": "Vaduz",
+            "to": "Vilnius",
+            "distance": 1728.68
+        },
+        {
+            "from": "Vaduz",
+            "to": "Luxembourg",
+            "distance": 581.36
+        },
+        {
+            "from": "Vaduz",
+            "to": "Skopje",
+            "distance": 1605.61
+        },
+        {
+            "from": "Vaduz",
+            "to": "Valletta",
+            "distance": 1855.25
+        },
+        {
+            "from": "Vaduz",
+            "to": "Chisinau",
+            "distance": 2006.11
+        },
+        {
+            "from": "Vaduz",
+            "to": "Podgorica",
+            "distance": 1414.51
+        },
+        {
+            "from": "Vaduz",
+            "to": "Amsterdam",
+            "distance": 874.59
+        },
+        {
+            "from": "Vaduz",
+            "to": "Oslo",
+            "distance": 1667.75
+        },
+        {
+            "from": "Vaduz",
+            "to": "Warsaw",
+            "distance": 1268.53
+        },
+        {
+            "from": "Vaduz",
+            "to": "Lisbon",
+            "distance": 2236.93
+        },
+        {
+            "from": "Vaduz",
+            "to": "Bucharest",
+            "distance": 1748.86
+        },
+        {
+            "from": "Vaduz",
+            "to": "Moscow",
+            "distance": 2512.94
+        },
+        {
+            "from": "Vaduz",
+            "to": "San Marino",
+            "distance": 606.74
+        },
+        {
+            "from": "Vaduz",
+            "to": "Belgrade",
+            "distance": 1174.57
+        },
+        {
+            "from": "Vaduz",
+            "to": "Bratislava",
+            "distance": 757.38
+        },
+        {
+            "from": "Vaduz",
+            "to": "Ljubljana",
+            "distance": 642.2
+        },
+        {
+            "from": "Vaduz",
+            "to": "Madrid",
+            "distance": 1768.16
+        },
+        {
+            "from": "Vaduz",
+            "to": "Stockholm",
+            "distance": 1824.62
+        },
+        {
+            "from": "Vaduz",
+            "to": "Bern",
+            "distance": 232.46
+        },
+        {
+            "from": "Vaduz",
+            "to": "Ankara",
+            "distance": 2573.24
+        },
+        {
+            "from": "Vaduz",
+            "to": "Kyiv",
+            "distance": 2004.31
+        },
+        {
+            "from": "Vaduz",
+            "to": "London",
+            "distance": 1123.11
+        },
+        {
+            "from": "Vilnius",
+            "to": "Luxembourg",
+            "distance": 1766.74
+        },
+        {
+            "from": "Vilnius",
+            "to": "Skopje",
+            "distance": 2165.65
+        },
+        {
+            "from": "Vilnius",
+            "to": "Valletta",
+            "distance": 3307.59
+        },
+        {
+            "from": "Vilnius",
+            "to": "Chisinau",
+            "distance": 1219.09
+        },
+        {
+            "from": "Vilnius",
+            "to": "Podgorica",
+            "distance": 2235.86
+        },
+        {
+            "from": "Vilnius",
+            "to": "Amsterdam",
+            "distance": 1661.09
+        },
+        {
+            "from": "Vilnius",
+            "to": "Oslo",
+            "distance": 1294.58
+        },
+        {
+            "from": "Vilnius",
+            "to": "Warsaw",
+            "distance": 478.77
+        },
+        {
+            "from": "Vilnius",
+            "to": "Lisbon",
+            "distance": 3850.97
+        },
+        {
+            "from": "Vilnius",
+            "to": "Bucharest",
+            "distance": 1737.1
+        },
+        {
+            "from": "Vilnius",
+            "to": "Moscow",
+            "distance": 944.1
+        },
+        {
+            "from": "Vilnius",
+            "to": "San Marino",
+            "distance": 2039.87
+        },
+        {
+            "from": "Vilnius",
+            "to": "Belgrade",
+            "distance": 1734.61
+        },
+        {
+            "from": "Vilnius",
+            "to": "Bratislava",
+            "distance": 1167.89
+        },
+        {
+            "from": "Vilnius",
+            "to": "Ljubljana",
+            "distance": 1551.05
+        },
+        {
+            "from": "Vilnius",
+            "to": "Madrid",
+            "distance": 3390.83
+        },
+        {
+            "from": "Vilnius",
+            "to": "Stockholm",
+            "distance": 776.43
+        },
+        {
+            "from": "Vilnius",
+            "to": "Bern",
+            "distance": 1913.62
+        },
+        {
+            "from": "Vilnius",
+            "to": "Ankara",
+            "distance": 2304.1
+        },
+        {
+            "from": "Vilnius",
+            "to": "Kyiv",
+            "distance": 754.92
+        },
+        {
+            "from": "Vilnius",
+            "to": "London",
+            "distance": 2107.81
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Skopje",
+            "distance": 2012.16
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Valletta",
+            "distance": 2327.8
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Chisinau",
+            "distance": 2138.02
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Podgorica",
+            "distance": 1738.8
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Amsterdam",
+            "distance": 360.52
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Oslo",
+            "distance": 1394.52
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Warsaw",
+            "distance": 1315.71
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Lisbon",
+            "distance": 2153.59
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Bucharest",
+            "distance": 2039.57
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Moscow",
+            "distance": 2560.12
+        },
+        {
+            "from": "Luxembourg",
+            "to": "San Marino",
+            "distance": 1079.29
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Belgrade",
+            "distance": 1581.12
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Bratislava",
+            "distance": 1048.09
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Ljubljana",
+            "distance": 966.49
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Madrid",
+            "distance": 1693.45
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Stockholm",
+            "distance": 1562.34
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Bern",
+            "distance": 490.75
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Ankara",
+            "distance": 2979.78
+        },
+        {
+            "from": "Luxembourg",
+            "to": "Kyiv",
+            "distance": 2078.02
+        },
+        {
+            "from": "Luxembourg",
+            "to": "London",
+            "distance": 568.78
+        },
+        {
+            "from": "Skopje",
+            "to": "Valletta",
+            "distance": 1357.1
+        },
+        {
+            "from": "Skopje",
+            "to": "Chisinau",
+            "distance": 1067.17
+        },
+        {
+            "from": "Skopje",
+            "to": "Podgorica",
+            "distance": 397.1
+        },
+        {
+            "from": "Skopje",
+            "to": "Amsterdam",
+            "distance": 2196.26
+        },
+        {
+            "from": "Skopje",
+            "to": "Oslo",
+            "distance": 2702.29
+        },
+        {
+            "from": "Skopje",
+            "to": "Warsaw",
+            "distance": 1671.0
+        },
+        {
+            "from": "Skopje",
+            "to": "Lisbon",
+            "distance": 3570.11
+        },
+        {
+            "from": "Skopje",
+            "to": "Bucharest",
+            "distance": 630.47
+        },
+        {
+            "from": "Skopje",
+            "to": "Moscow",
+            "distance": 2619.8
+        },
+        {
+            "from": "Skopje",
+            "to": "San Marino",
+            "distance": 1460.33
+        },
+        {
+            "from": "Skopje",
+            "to": "Belgrade",
+            "distance": 433.99
+        },
+        {
+            "from": "Skopje",
+            "to": "Bratislava",
+            "distance": 1001.98
+        },
+        {
+            "from": "Skopje",
+            "to": "Ljubljana",
+            "distance": 960.81
+        },
+        {
+            "from": "Skopje",
+            "to": "Madrid",
+            "distance": 3016.84
+        },
+        {
+            "from": "Skopje",
+            "to": "Stockholm",
+            "distance": 2752.63
+        },
+        {
+            "from": "Skopje",
+            "to": "Bern",
+            "distance": 1796.88
+        },
+        {
+            "from": "Skopje",
+            "to": "Ankara",
+            "distance": 1263.78
+        },
+        {
+            "from": "Skopje",
+            "to": "Kyiv",
+            "distance": 1910.44
+        },
+        {
+            "from": "Skopje",
+            "to": "London",
+            "distance": 2531.9
+        },
+        {
+            "from": "Valletta",
+            "to": "Chisinau",
+            "distance": 3315.01
+        },
+        {
+            "from": "Valletta",
+            "to": "Podgorica",
+            "distance": 1072.4
+        },
+        {
+            "from": "Valletta",
+            "to": "Amsterdam",
+            "distance": 2671.84
+        },
+        {
+            "from": "Valletta",
+            "to": "Oslo",
+            "distance": 3513.33
+        },
+        {
+            "from": "Valletta",
+            "to": "Warsaw",
+            "distance": 2812.65
+        },
+        {
+            "from": "Valletta",
+            "to": "Lisbon",
+            "distance": 3533.51
+        },
+        {
+            "from": "Valletta",
+            "to": "Bucharest",
+            "distance": 2060.68
+        },
+        {
+            "from": "Valletta",
+            "to": "Moscow",
+            "distance": 4081.63
+        },
+        {
+            "from": "Valletta",
+            "to": "San Marino",
+            "distance": 1356.91
+        },
+        {
+            "from": "Valletta",
+            "to": "Belgrade",
+            "distance": 2296.3
+        },
+        {
+            "from": "Valletta",
+            "to": "Bratislava",
+            "distance": 2206.49
+        },
+        {
+            "from": "Valletta",
+            "to": "Ljubljana",
+            "distance": 1770.79
+        },
+        {
+            "from": "Valletta",
+            "to": "Madrid",
+            "distance": 2980.23
+        },
+        {
+            "from": "Valletta",
+            "to": "Stockholm",
+            "distance": 3563.66
+        },
+        {
+            "from": "Valletta",
+            "to": "Bern",
+            "distance": 1949.52
+        },
+        {
+            "from": "Valletta",
+            "to": "Ankara",
+            "distance": 2424.38
+        },
+        {
+            "from": "Valletta",
+            "to": "Kyiv",
+            "distance": 3369.6
+        },
+        {
+            "from": "Valletta",
+            "to": "London",
+            "distance": 2893.88
+        },
+        {
+            "from": "Chisinau",
+            "to": "Podgorica",
+            "distance": 1320.33
+        },
+        {
+            "from": "Chisinau",
+            "to": "Amsterdam",
+            "distance": 2143.44
+        },
+        {
+            "from": "Chisinau",
+            "to": "Oslo",
+            "distance": 2551.25
+        },
+        {
+            "from": "Chisinau",
+            "to": "Warsaw",
+            "distance": 982.68
+        },
+        {
+            "from": "Chisinau",
+            "to": "Lisbon",
+            "distance": 4175.56
+        },
+        {
+            "from": "Chisinau",
+            "to": "Bucharest",
+            "distance": 454.58
+        },
+        {
+            "from": "Chisinau",
+            "to": "Moscow",
+            "distance": 1332.4
+        },
+        {
+            "from": "Chisinau",
+            "to": "San Marino",
+            "distance": 2065.77
+        },
+        {
+            "from": "Chisinau",
+            "to": "Belgrade",
+            "distance": 972.42
+        },
+        {
+            "from": "Chisinau",
+            "to": "Bratislava",
+            "distance": 1304.48
+        },
+        {
+            "from": "Chisinau",
+            "to": "Ljubljana",
+            "distance": 1563.23
+        },
+        {
+            "from": "Chisinau",
+            "to": "Madrid",
+            "distance": 3622.28
+        },
+        {
+            "from": "Chisinau",
+            "to": "Stockholm",
+            "distance": 2601.58
+        },
+        {
+            "from": "Chisinau",
+            "to": "Bern",
+            "distance": 2215.68
+        },
+        {
+            "from": "Chisinau",
+            "to": "Ankara",
+            "distance": 1256.18
+        },
+        {
+            "from": "Chisinau",
+            "to": "Kyiv",
+            "distance": 469.98
+        },
+        {
+            "from": "Chisinau",
+            "to": "London",
+            "distance": 2563.4
+        },
+        {
+            "from": "Podgorica",
+            "to": "Amsterdam",
+            "distance": 2020.82
+        },
+        {
+            "from": "Podgorica",
+            "to": "Oslo",
+            "distance": 2760.79
+        },
+        {
+            "from": "Podgorica",
+            "to": "Warsaw",
+            "distance": 1741.02
+        },
+        {
+            "from": "Podgorica",
+            "to": "Lisbon",
+            "distance": 3320.04
+        },
+        {
+            "from": "Podgorica",
+            "to": "Bucharest",
+            "distance": 862.75
+        },
+        {
+            "from": "Podgorica",
+            "to": "Moscow",
+            "distance": 2634.7
+        },
+        {
+            "from": "Podgorica",
+            "to": "San Marino",
+            "distance": 842.54
+        },
+        {
+            "from": "Podgorica",
+            "to": "Belgrade",
+            "distance": 452.79
+        },
+        {
+            "from": "Podgorica",
+            "to": "Bratislava",
+            "distance": 1016.9
+        },
+        {
+            "from": "Podgorica",
+            "to": "Ljubljana",
+            "distance": 770.96
+        },
+        {
+            "from": "Podgorica",
+            "to": "Madrid",
+            "distance": 2766.76
+        },
+        {
+            "from": "Podgorica",
+            "to": "Stockholm",
+            "distance": 2811.13
+        },
+        {
+            "from": "Podgorica",
+            "to": "Bern",
+            "distance": 1546.81
+        },
+        {
+            "from": "Podgorica",
+            "to": "Ankara",
+            "distance": 1604.13
+        },
+        {
+            "from": "Podgorica",
+            "to": "Kyiv",
+            "distance": 1925.35
+        },
+        {
+            "from": "Podgorica",
+            "to": "London",
+            "distance": 2356.46
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Oslo",
+            "distance": 1266.12
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Warsaw",
+            "distance": 1193.29
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Lisbon",
+            "distance": 2233.43
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Bucharest",
+            "distance": 2222.58
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Moscow",
+            "distance": 2437.69
+        },
+        {
+            "from": "Amsterdam",
+            "to": "San Marino",
+            "distance": 1421.59
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Belgrade",
+            "distance": 1764.13
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Bratislava",
+            "distance": 1203.81
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Ljubljana",
+            "distance": 1230.87
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Madrid",
+            "distance": 1773.29
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Stockholm",
+            "distance": 1433.93
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Bern",
+            "distance": 833.05
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Ankara",
+            "distance": 3162.79
+        },
+        {
+            "from": "Amsterdam",
+            "to": "Kyiv",
+            "distance": 1958.87
+        },
+        {
+            "from": "Amsterdam",
+            "to": "London",
+            "distance": 541.52
+        },
+        {
+            "from": "Oslo",
+            "to": "Warsaw",
+            "distance": 1424.33
+        },
+        {
+            "from": "Oslo",
+            "to": "Lisbon",
+            "distance": 3426.63
+        },
+        {
+            "from": "Oslo",
+            "to": "Bucharest",
+            "distance": 2725.94
+        },
+        {
+            "from": "Oslo",
+            "to": "Moscow",
+            "distance": 1918.89
+        },
+        {
+            "from": "Oslo",
+            "to": "San Marino",
+            "distance": 2262.79
+        },
+        {
+            "from": "Oslo",
+            "to": "Belgrade",
+            "distance": 2267.49
+        },
+        {
+            "from": "Oslo",
+            "to": "Bratislava",
+            "distance": 1700.77
+        },
+        {
+            "from": "Oslo",
+            "to": "Ljubljana",
+            "distance": 1983.42
+        },
+        {
+            "from": "Oslo",
+            "to": "Madrid",
+            "distance": 2966.49
+        },
+        {
+            "from": "Oslo",
+            "to": "Stockholm",
+            "distance": 525.7
+        },
+        {
+            "from": "Oslo",
+            "to": "Bern",
+            "distance": 1723.87
+        },
+        {
+            "from": "Oslo",
+            "to": "Ankara",
+            "distance": 3666.16
+        },
+        {
+            "from": "Oslo",
+            "to": "Kyiv",
+            "distance": 2189.91
+        },
+        {
+            "from": "Oslo",
+            "to": "London",
+            "distance": 1736.02
+        },
+        {
+            "from": "Warsaw",
+            "to": "Lisbon",
+            "distance": 3382.45
+        },
+        {
+            "from": "Warsaw",
+            "to": "Bucharest",
+            "distance": 1262.37
+        },
+        {
+            "from": "Warsaw",
+            "to": "Moscow",
+            "distance": 1255.2
+        },
+        {
+            "from": "Warsaw",
+            "to": "San Marino",
+            "distance": 1546.52
+        },
+        {
+            "from": "Warsaw",
+            "to": "Belgrade",
+            "distance": 1241.26
+        },
+        {
+            "from": "Warsaw",
+            "to": "Bratislava",
+            "distance": 674.54
+        },
+        {
+            "from": "Warsaw",
+            "to": "Ljubljana",
+            "distance": 1057.7
+        },
+        {
+            "from": "Warsaw",
+            "to": "Madrid",
+            "distance": 2922.32
+        },
+        {
+            "from": "Warsaw",
+            "to": "Stockholm",
+            "distance": 1477.11
+        },
+        {
+            "from": "Warsaw",
+            "to": "Bern",
+            "distance": 1445.11
+        },
+        {
+            "from": "Warsaw",
+            "to": "Ankara",
+            "distance": 2639.93
+        },
+        {
+            "from": "Warsaw",
+            "to": "Kyiv",
+            "distance": 788.49
+        },
+        {
+            "from": "Warsaw",
+            "to": "London",
+            "distance": 1639.29
+        },
+        {
+            "from": "Lisbon",
+            "to": "Bucharest",
+            "distance": 3899.27
+        },
+        {
+            "from": "Lisbon",
+            "to": "Moscow",
+            "distance": 4562.26
+        },
+        {
+            "from": "Lisbon",
+            "to": "San Marino",
+            "distance": 2414.64
+        },
+        {
+            "from": "Lisbon",
+            "to": "Belgrade",
+            "distance": 3137.82
+        },
+        {
+            "from": "Lisbon",
+            "to": "Bratislava",
+            "distance": 2948.65
+        },
+        {
+            "from": "Lisbon",
+            "to": "Ljubljana",
+            "distance": 2612.31
+        },
+        {
+            "from": "Lisbon",
+            "to": "Madrid",
+            "distance": 625.24
+        },
+        {
+            "from": "Lisbon",
+            "to": "Stockholm",
+            "distance": 3592.42
+        },
+        {
+            "from": "Lisbon",
+            "to": "Bern",
+            "distance": 2004.41
+        },
+        {
+            "from": "Lisbon",
+            "to": "Ankara",
+            "distance": 4536.49
+        },
+        {
+            "from": "Lisbon",
+            "to": "Kyiv",
+            "distance": 4146.87
+        },
+        {
+            "from": "Lisbon",
+            "to": "London",
+            "distance": 2189.78
+        },
+        {
+            "from": "Bucharest",
+            "to": "Moscow",
+            "distance": 1781.16
+        },
+        {
+            "from": "Bucharest",
+            "to": "San Marino",
+            "distance": 1792.36
+        },
+        {
+            "from": "Bucharest",
+            "to": "Belgrade",
+            "distance": 595.31
+        },
+        {
+            "from": "Bucharest",
+            "to": "Bratislava",
+            "distance": 1031.07
+        },
+        {
+            "from": "Bucharest",
+            "to": "Ljubljana",
+            "distance": 1289.82
+        },
+        {
+            "from": "Bucharest",
+            "to": "Madrid",
+            "distance": 3348.88
+        },
+        {
+            "from": "Bucharest",
+            "to": "Stockholm",
+            "distance": 2781.71
+        },
+        {
+            "from": "Bucharest",
+            "to": "Bern",
+            "distance": 1942.27
+        },
+        {
+            "from": "Bucharest",
+            "to": "Ankara",
+            "distance": 1088.3
+        },
+        {
+            "from": "Bucharest",
+            "to": "Kyiv",
+            "distance": 918.73
+        },
+        {
+            "from": "Bucharest",
+            "to": "London",
+            "distance": 2560.98
+        },
+        {
+            "from": "Moscow",
+            "to": "San Marino",
+            "distance": 2816.4
+        },
+        {
+            "from": "Moscow",
+            "to": "Belgrade",
+            "distance": 2191.76
+        },
+        {
+            "from": "Moscow",
+            "to": "Bratislava",
+            "distance": 1944.42
+        },
+        {
+            "from": "Moscow",
+            "to": "Ljubljana",
+            "distance": 2327.58
+        },
+        {
+            "from": "Moscow",
+            "to": "Madrid",
+            "distance": 4167.36
+        },
+        {
+            "from": "Moscow",
+            "to": "Stockholm",
+            "distance": 1439.0
+        },
+        {
+            "from": "Moscow",
+            "to": "Bern",
+            "distance": 2690.15
+        },
+        {
+            "from": "Moscow",
+            "to": "Ankara",
+            "distance": 2412.76
+        },
+        {
+            "from": "Moscow",
+            "to": "Kyiv",
+            "distance": 863.57
+        },
+        {
+            "from": "Moscow",
+            "to": "London",
+            "distance": 2884.34
+        },
+        {
+            "from": "San Marino",
+            "to": "Belgrade",
+            "distance": 1030.74
+        },
+        {
+            "from": "San Marino",
+            "to": "Bratislava",
+            "distance": 940.92
+        },
+        {
+            "from": "San Marino",
+            "to": "Ljubljana",
+            "distance": 505.22
+        },
+        {
+            "from": "San Marino",
+            "to": "Madrid",
+            "distance": 1863.78
+        },
+        {
+            "from": "San Marino",
+            "to": "Stockholm",
+            "distance": 2317.0
+        },
+        {
+            "from": "San Marino",
+            "to": "Bern",
+            "distance": 702.85
+        },
+        {
+            "from": "San Marino",
+            "to": "Ankara",
+            "distance": 2429.4
+        },
+        {
+            "from": "San Marino",
+            "to": "Kyiv",
+            "distance": 2104.04
+        },
+        {
+            "from": "San Marino",
+            "to": "London",
+            "distance": 1647.22
+        },
+        {
+            "from": "Belgrade",
+            "to": "Bratislava",
+            "distance": 571.83
+        },
+        {
+            "from": "Belgrade",
+            "to": "Ljubljana",
+            "distance": 530.65
+        },
+        {
+            "from": "Belgrade",
+            "to": "Madrid",
+            "distance": 2586.68
+        },
+        {
+            "from": "Belgrade",
+            "to": "Stockholm",
+            "distance": 2322.47
+        },
+        {
+            "from": "Belgrade",
+            "to": "Bern",
+            "distance": 1366.72
+        },
+        {
+            "from": "Belgrade",
+            "to": "Ankara",
+            "distance": 1401.66
+        },
+        {
+            "from": "Belgrade",
+            "to": "Kyiv",
+            "distance": 1480.28
+        },
+        {
+            "from": "Belgrade",
+            "to": "London",
+            "distance": 2101.74
+        },
+        {
+            "from": "Bratislava",
+            "to": "Ljubljana",
+            "distance": 449.72
+        },
+        {
+            "from": "Bratislava",
+            "to": "Madrid",
+            "distance": 2495.05
+        },
+        {
+            "from": "Bratislava",
+            "to": "Stockholm",
+            "distance": 1755.31
+        },
+        {
+            "from": "Bratislava",
+            "to": "Bern",
+            "distance": 948.1
+        },
+        {
+            "from": "Bratislava",
+            "to": "Ankara",
+            "distance": 1969.15
+        },
+        {
+            "from": "Bratislava",
+            "to": "Kyiv",
+            "distance": 1315.65
+        },
+        {
+            "from": "Bratislava",
+            "to": "London",
+            "distance": 1566.81
+        },
+        {
+            "from": "Ljubljana",
+            "to": "Madrid",
+            "distance": 2060.05
+        },
+        {
+            "from": "Ljubljana",
+            "to": "Stockholm",
+            "distance": 2035.84
+        },
+        {
+            "from": "Ljubljana",
+            "to": "Bern",
+            "distance": 840.09
+        },
+        {
+            "from": "Ljubljana",
+            "to": "Ankara",
+            "distance": 1931.37
+        },
+        {
+            "from": "Ljubljana",
+            "to": "Kyiv",
+            "distance": 1599.24
+        },
+        {
+            "from": "Ljubljana",
+            "to": "London",
+            "distance": 1555.95
+        },
+        {
+            "from": "Madrid",
+            "to": "Stockholm",
+            "distance": 3126.09
+        },
+        {
+            "from": "Madrid",
+            "to": "Bern",
+            "distance": 1538.24
+        },
+        {
+            "from": "Madrid",
+            "to": "Ankara",
+            "distance": 3980.06
+        },
+        {
+            "from": "Madrid",
+            "to": "Kyiv",
+            "distance": 3680.54
+        },
+        {
+            "from": "Madrid",
+            "to": "London",
+            "distance": 1723.45
+        },
+        {
+            "from": "Stockholm",
+            "to": "Bern",
+            "distance": 1880.61
+        },
+        {
+            "from": "Stockholm",
+            "to": "Ankara",
+            "distance": 3721.76
+        },
+        {
+            "from": "Stockholm",
+            "to": "Kyiv",
+            "distance": 2245.51
+        },
+        {
+            "from": "Stockholm",
+            "to": "London",
+            "distance": 1903.65
+        },
+        {
+            "from": "Bern",
+            "to": "Ankara",
+            "distance": 2765.04
+        },
+        {
+            "from": "Bern",
+            "to": "Kyiv",
+            "distance": 2199.85
+        },
+        {
+            "from": "Bern",
+            "to": "London",
+            "distance": 984.69
+        },
+        {
+            "from": "Ankara",
+            "to": "Kyiv",
+            "distance": 1557.1
+        },
+        {
+            "from": "Ankara",
+            "to": "London",
+            "distance": 3500.27
+        },
+        {
+            "from": "Kyiv",
+            "to": "London",
+            "distance": 2403.82
+        }
+    ]
+}
