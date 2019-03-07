@@ -1,2 +1,2 @@
 # univ-ri-aco
-VR visualization of ant colony optimization algorithm made for university project
+VR visualization of ant colony optimization algorithm solving TSP on Europe cities made for a university project
